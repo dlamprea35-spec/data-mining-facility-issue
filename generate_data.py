@@ -77,6 +77,9 @@ VAGUE = ["sira", "problema", "palihug check", "kinahanglan i-repair"]
 
 BASE_P = {"Electrical": .060, "Ventilation": .070, "Furniture": .055,
           "Audio-Visual": .045, "Plumbing": .035, "Structural": .030, "Other": .030}
+# SCALE controls dataset size. 0.45 gives roughly 350-450 records, which matches the
+# 200-500 records expected in the proposal (Section 5). Raise or lower as needed.
+SCALE = 0.45
 # month-of-year effects (rainy season boosts plumbing/structural)
 RAINY = {11: 1.6, 12: 2.0, 1: 2.0, 2: 1.6}
 # co-occurrence boosts within the same room and month (planted pattern for the demo)
@@ -94,7 +97,7 @@ for m in months:
         mult = prone[room]
         present = set()
         for cat, p in BASE_P.items():
-            pp = p * mult
+            pp = p * mult * SCALE
             if cat in ("Plumbing", "Structural"):
                 pp *= RAINY.get(m.month, 1.0)
             if rng.random() < min(pp, 0.6):
