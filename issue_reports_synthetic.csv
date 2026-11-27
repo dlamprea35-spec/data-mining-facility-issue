@@ -1,0 +1,915 @@
+report_id,date_reported,college,building,room,issue_description,issue_category,priority,status,date_resolved
+SYN-0001,2023-08-05,College of Agriculture,Building D,D-101,kulang ang armchairs sa D-101,Furniture,Low,Pending,
+SYN-0002,2023-08-06,College of Computing,Building B,B-102,loose desk legs sa B-102,Furniture,Medium,Pending,
+SYN-0003,2023-08-06,College of Business,Building E,E-102,ang aircon sa E-102 dili cold,Ventilation,Low,Resolved,2023-08-22
+SYN-0004,2023-08-06,College of Business,Building E,E-103,"problema sa E-103, palihug check",Other,Medium,Resolved,2023-08-16
+SYN-0005,2023-08-07,College of Engineering,Building C,C-104,broken chair in C-104,Furniture,High,Resolved,2023-08-10
+SYN-0006,2023-08-07,College of Business,Building E,E-102,walay display ang projector sa E-102,Audio-Visual,Low,Resolved,2023-08-09
+SYN-0007,2023-08-07,College of Computing,Building B,B-103,"init kaayo sa B-103, walay hangin",Ventilation,Low,Resolved,2023-08-17
+SYN-0008,2023-08-08,College of Computing,Building B,B-104,walay kuryente ang outlet sa B-104,Electrical,Medium,Resolved,2023-08-27
+SYN-0009,2023-08-08,College of Education,Building A,A-102,sira ang flush sa CR sa A-102,Plumbing,High,Resolved,2023-08-12
+SYN-0010,2023-08-11,College of Education,Building A,A-107,busted light bulb in A-107,Electrical,Medium,Resolved,2023-08-29
+SYN-0011,2023-08-11,College of Computing,Building B,B-104,"broken ceiling fan in B-104, init kaayo",Ventilation,Medium,In Progress,
+SYN-0012,2023-08-12,College of Education,Building A,A-104,ang HDMI cable sa A-104 naputol,Electrical,Low,Resolved,2023-08-15
+SYN-0013,2023-08-12,College of Agriculture,Building D,D-108,roof leak in D-108 when it rains,Structural,High,Pending,
+SYN-0014,2023-08-12,College of Education,Building A,A-108,"broken ceiling fan in A-108, init kaayo",Ventilation,Low,Resolved,2023-08-23
+SYN-0015,2023-08-16,College of Computing,Building B,B-107,ang outlet sa B-107 dili mugana,Electrical,High,Resolved,2023-08-24
+SYN-0016,2023-08-17,College of Computing,Building B,B-104,walay display ang projector sa B-104,Audio-Visual,High,Resolved,2023-08-26
+SYN-0017,2023-08-18,College of Engineering,Building C,C-105,"sira ang ilaw sa C-105, dili mosiga",Electrical,Medium,Resolved,2023-08-25
+SYN-0018,2023-08-19,College of Education,Building A,A-104,"broken ceiling fan in A-104, init kaayo",Ventilation,Low,Resolved,2023-09-04
+SYN-0019,2023-08-20,College of Education,Building A,A-104,walay kuryente ang outlet sa A-104,Electrical,Low,Resolved,2023-08-24
+SYN-0020,2023-08-20,College of Agriculture,Building D,D-108,kulang ang armchairs sa D-108,Furniture,Low,Resolved,2023-09-08
+SYN-0021,2023-08-23,College of Business,Building E,E-102,problema sa E-102,Furniture,Low,In Progress,
+SYN-0022,2023-08-23,College of Business,Building E,E-101,hugaw kaayo ang E-101,Other,Medium,Pending,
+SYN-0023,2023-08-23,College of Education,Building A,A-108,problema sa A-108,Electrical,High,Resolved,2023-08-31
+SYN-0024,2023-08-23,College of Engineering,Building C,C-105,sira ang speaker sa C-105,Audio-Visual,Medium,Resolved,2023-09-09
+SYN-0025,2023-08-25,College of Engineering,Building C,C-104,ang aircon sa C-104 dili cold,Ventilation,High,Pending,
+SYN-0026,2023-08-26,College of Education,Building A,A-108,naguba ang armchair sa A-108,Furniture,Medium,Resolved,2023-09-09
+SYN-0027,2023-08-27,College of Engineering,Building C,C-104,baha ang CR sa C-104,Plumbing,High,Resolved,2023-09-05
+SYN-0028,2023-08-27,College of Education,Building A,A-108,sira ang speaker sa A-108,Audio-Visual,High,Pending,
+SYN-0029,2023-09-01,College of Computing,Building B,B-106,loose desk legs sa B-106,Furniture,High,Resolved,2023-09-02
+SYN-0030,2023-09-02,College of Engineering,Building C,C-107,leaking faucet near C-107,Plumbing,Medium,Resolved,2023-09-05
+SYN-0031,2023-09-03,College of Engineering,Building C,C-108,walay basurahan sa C-108,Other,Medium,In Progress,
+SYN-0032,2023-09-04,College of Education,Building A,A-105,loose desk legs sa A-105,Furniture,Low,Resolved,2023-09-28
+SYN-0033,2023-09-04,College of Agriculture,Building D,D-104,kinahanglan i-repair sa D-104,Electrical,Medium,Resolved,2023-09-05
+SYN-0034,2023-09-07,College of Agriculture,Building D,D-108,dili mulupad ang electric fan sa D-108,Ventilation,Low,Resolved,2023-09-17
+SYN-0035,2023-09-07,College of Business,Building E,E-106,dili mulupad ang electric fan sa E-106,Ventilation,Low,Pending,
+SYN-0036,2023-09-07,College of Computing,Building B,B-105,"broken ceiling fan in B-105, init kaayo",Ventilation,Low,In Progress,
+SYN-0037,2023-09-07,College of Education,Building A,A-106,palihug check sa A-106,Furniture,Low,Resolved,2023-09-13
+SYN-0038,2023-09-10,College of Computing,Building B,B-102,palihug check sa B-102,Audio-Visual,Low,Resolved,2023-09-28
+SYN-0039,2023-09-10,College of Engineering,Building C,C-103,"init kaayo sa C-103, walay hangin",Ventilation,Low,Resolved,2023-10-04
+SYN-0040,2023-09-11,College of Engineering,Building C,C-103,projector in C-103 no signal,Audio-Visual,Low,Resolved,2023-09-22
+SYN-0041,2023-09-12,College of Education,Building A,A-103,leaking faucet near A-103,Plumbing,High,Resolved,2023-09-19
+SYN-0042,2023-09-13,College of Engineering,Building C,C-108,blurry ang projector sa C-108,Audio-Visual,Medium,Resolved,2023-10-04
+SYN-0043,2023-09-13,College of Agriculture,Building D,D-104,broken chair in D-104,Furniture,Medium,Resolved,2023-09-17
+SYN-0044,2023-09-14,College of Business,Building E,E-102,leaking faucet near E-102,Plumbing,Medium,Resolved,2023-10-06
+SYN-0045,2023-09-15,College of Business,Building E,E-108,ang outlet sa E-108 dili mugana,Electrical,Medium,In Progress,
+SYN-0046,2023-09-15,College of Agriculture,Building D,D-102,ang aircon sa D-102 dili cold,Ventilation,Low,Resolved,2023-09-21
+SYN-0047,2023-09-17,College of Computing,Building B,B-106,kinahanglan i-repair sa B-106,Plumbing,Low,Resolved,2023-10-06
+SYN-0048,2023-09-19,College of Agriculture,Building D,D-101,sira ang speaker sa D-101,Audio-Visual,High,Resolved,2023-09-20
+SYN-0049,2023-09-20,College of Agriculture,Building D,D-107,gi-crack ang dingding sa D-107,Structural,Medium,Resolved,2023-10-03
+SYN-0050,2023-09-21,College of Engineering,Building C,C-107,sira sa C-107,Structural,Medium,Resolved,2023-09-23
+SYN-0051,2023-09-22,College of Education,Building A,A-107,palihug check sa A-107,Ventilation,Medium,In Progress,
+SYN-0052,2023-09-23,College of Agriculture,Building D,D-106,walay display ang projector sa D-106,Audio-Visual,Medium,Resolved,2023-10-06
+SYN-0053,2023-09-25,College of Agriculture,Building D,D-102,nag-spark ang switch sa D-102,Electrical,High,In Progress,
+SYN-0054,2023-09-27,College of Computing,Building B,B-104,sira ang electric fan sa B-104,Ventilation,Low,Resolved,2023-10-21
+SYN-0055,2023-09-27,College of Education,Building A,A-103,walay basurahan sa A-103,Other,Low,Resolved,2023-10-06
+SYN-0056,2023-10-01,College of Agriculture,Building D,D-101,nag-tulo ang atop sa D-101,Structural,High,In Progress,
+SYN-0057,2023-10-01,College of Engineering,Building C,C-105,flickering lights sa C-105,Electrical,High,In Progress,
+SYN-0058,2023-10-02,College of Education,Building A,A-107,broken window glass in A-107,Structural,Low,Resolved,2023-10-08
+SYN-0059,2023-10-02,College of Agriculture,Building D,D-101,sira ang electric fan sa D-101,Ventilation,Medium,In Progress,
+SYN-0060,2023-10-04,College of Business,Building E,E-102,nag-spark ang switch sa E-102,Electrical,High,Resolved,2023-10-09
+SYN-0061,2023-10-06,College of Agriculture,Building D,D-101,nag-spark ang switch sa D-101,Electrical,High,Resolved,2023-10-13
+SYN-0062,2023-10-06,College of Agriculture,Building D,D-101,nahulog ang whiteboard sa D-101,Furniture,Medium,Resolved,2023-10-22
+SYN-0063,2023-10-06,College of Agriculture,Building D,D-107,flickering lights sa D-107,Electrical,Medium,Resolved,2023-10-09
+SYN-0064,2023-10-11,College of Engineering,Building C,C-105,dili mugana ang projector sa C-105,Audio-Visual,Low,Resolved,2023-10-22
+SYN-0065,2023-10-12,College of Education,Building A,A-108,walay basurahan sa A-108,Other,Low,Resolved,2023-10-27
+SYN-0066,2023-10-12,College of Agriculture,Building D,D-108,walay display ang projector sa D-108,Audio-Visual,Medium,Resolved,2023-10-14
+SYN-0067,2023-10-13,College of Agriculture,Building D,D-107,sira ang electric fan sa D-107,Ventilation,Medium,Resolved,2023-10-14
+SYN-0068,2023-10-13,College of Business,Building E,E-107,walay kuryente ang outlet sa E-107,Electrical,Low,Resolved,2023-11-03
+SYN-0069,2023-10-13,College of Engineering,Building C,C-103,broken window glass in C-103,Structural,Low,Resolved,2023-10-16
+SYN-0070,2023-10-15,College of Computing,Building B,B-107,naay ipis sa B-107,Other,Medium,Pending,
+SYN-0071,2023-10-19,College of Business,Building E,E-107,nag-tulo ang atop sa E-107,Structural,High,Resolved,2023-10-20
+SYN-0072,2023-10-21,College of Business,Building E,E-106,electric fan sa E-106 naghimo og kasaba,Ventilation,Low,Resolved,2023-10-24
+SYN-0073,2023-10-25,College of Education,Building A,A-108,sira ang lamesa sa teacher sa A-108,Furniture,Low,Resolved,2023-10-29
+SYN-0074,2023-10-26,College of Computing,Building B,B-105,loose desk legs sa B-105,Furniture,Medium,Resolved,2023-11-12
+SYN-0075,2023-10-27,College of Education,Building A,A-106,sira ang lamesa sa teacher sa A-106,Furniture,Low,In Progress,
+SYN-0076,2023-11-02,College of Education,Building A,A-108,sira ang electric fan sa A-108,Ventilation,Low,Resolved,2023-11-07
+SYN-0077,2023-11-03,College of Engineering,Building C,C-103,ang HDMI cable sa C-103 naputol,Audio-Visual,Medium,Resolved,2023-11-08
+SYN-0078,2023-11-03,College of Computing,Building B,B-104,sira ang lamesa sa teacher sa B-104,Furniture,High,Resolved,2023-11-06
+SYN-0079,2023-11-04,College of Education,Building A,A-103,hugaw kaayo ang A-103,Other,Medium,Resolved,2023-11-18
+SYN-0080,2023-11-05,College of Engineering,Building C,C-107,nahulog ang whiteboard sa C-107,Furniture,Low,In Progress,
+SYN-0081,2023-11-05,College of Education,Building A,A-106,"init kaayo sa A-106, walay hangin",Ventilation,Medium,Pending,
+SYN-0082,2023-11-06,College of Education,Building A,A-106,dili mugana ang projector sa A-106,Audio-Visual,Low,Pending,
+SYN-0083,2023-11-06,College of Education,Building A,A-103,busted light bulb in A-103,Electrical,Medium,In Progress,
+SYN-0084,2023-11-07,College of Computing,Building B,B-105,electric fan sa B-105 naghimo og kasaba,Ventilation,Medium,Resolved,2023-11-27
+SYN-0085,2023-11-08,College of Agriculture,Building D,D-107,nag-agas ang gripo sa CR duol sa D-107,Plumbing,Low,Resolved,2023-11-14
+SYN-0086,2023-11-09,College of Business,Building E,E-107,dili mulupad ang electric fan sa E-107,Ventilation,Medium,Resolved,2023-11-19
+SYN-0087,2023-11-10,College of Education,Building A,A-104,"broken ceiling fan in A-104, init kaayo",Ventilation,Low,Resolved,2023-11-11
+SYN-0088,2023-11-13,College of Agriculture,Building D,D-106,sira ang flush sa CR sa D-106,Plumbing,High,Pending,
+SYN-0089,2023-11-15,College of Education,Building A,A-108,naay ipis sa A-108,Other,Medium,Resolved,2023-11-19
+SYN-0090,2023-11-16,College of Education,Building A,A-103,"broken ceiling fan in A-103, init kaayo",Ventilation,Medium,Resolved,2023-12-03
+SYN-0091,2023-11-17,College of Education,Building A,A-106,flickering lights sa A-106,Electrical,Low,Resolved,2023-11-27
+SYN-0092,2023-11-17,College of Business,Building E,E-106,problema sa E-106,Audio-Visual,High,Resolved,2023-11-21
+SYN-0093,2023-11-18,College of Education,Building A,A-108,loose desk legs sa A-108,Furniture,High,Resolved,2023-11-27
+SYN-0094,2023-11-19,College of Agriculture,Building D,D-103,walay basurahan sa D-103,Audio-Visual,Medium,Resolved,2023-12-07
+SYN-0095,2023-11-20,College of Agriculture,Building D,D-101,dili mulupad ang electric fan sa D-101,Ventilation,Low,Resolved,2023-11-28
+SYN-0096,2023-11-22,College of Agriculture,Building D,D-106,gi-crack ang dingding sa D-106,Structural,Low,In Progress,
+SYN-0097,2023-11-23,College of Engineering,Building C,C-107,electric fan sa C-107 naghimo og kasaba,Ventilation,Medium,Resolved,2023-12-17
+SYN-0098,2023-11-27,College of Agriculture,Building D,D-108,busted light bulb in D-108,Electrical,Low,In Progress,
+SYN-0099,2023-12-01,College of Education,Building A,A-103,sira ang electric fan sa A-103,Ventilation,Low,Resolved,2023-12-17
+SYN-0100,2023-12-02,College of Business,Building E,E-105,ang outlet sa E-105 dili mugana,Electrical,Medium,In Progress,
+SYN-0101,2023-12-02,College of Agriculture,Building D,D-107,dili mugana ang projector sa D-107,Audio-Visual,Low,Pending,
+SYN-0102,2023-12-06,College of Business,Building E,E-104,leaking faucet near E-104,Plumbing,High,Resolved,2023-12-10
+SYN-0103,2023-12-11,College of Computing,Building B,B-108,sira ang electric fan sa B-108,Ventilation,High,Resolved,2023-12-17
+SYN-0104,2023-12-12,College of Education,Building A,A-103,baha ang CR sa A-103,Plumbing,High,In Progress,
+SYN-0105,2023-12-13,College of Agriculture,Building D,D-103,sira ang flush sa CR sa D-103,Plumbing,High,Resolved,2023-12-17
+SYN-0106,2023-12-13,College of Business,Building E,E-101,nag-agas ang gripo sa CR duol sa E-101,Plumbing,Medium,Resolved,2023-12-21
+SYN-0107,2023-12-14,College of Agriculture,Building D,D-105,roof leak in D-105 when it rains,Structural,Medium,Pending,
+SYN-0108,2023-12-15,College of Engineering,Building C,C-104,sira ang electric fan sa C-104,Ventilation,High,In Progress,
+SYN-0109,2023-12-17,College of Computing,Building B,B-107,nag-tulo ang atop sa B-107,Structural,High,Resolved,2023-12-19
+SYN-0110,2023-12-19,College of Education,Building A,A-106,"broken ceiling fan in A-106, init kaayo",Ventilation,Low,Resolved,2024-01-02
+SYN-0111,2023-12-19,College of Education,Building A,A-107,gi-crack ang dingding sa A-107,Structural,High,Pending,
+SYN-0112,2023-12-19,College of Education,Building A,A-103,kinahanglan i-repair sa A-103,Electrical,Medium,Resolved,2023-12-30
+SYN-0113,2023-12-20,College of Education,Building A,A-108,nag-agas ang gripo sa CR duol sa A-108,Plumbing,Low,Resolved,2023-12-30
+SYN-0114,2023-12-20,College of Engineering,Building C,C-104,flickering lights sa C-104,Electrical,Medium,Resolved,2023-12-22
+SYN-0115,2023-12-20,College of Business,Building E,E-103,walay kuryente ang outlet sa E-103,Electrical,Medium,Resolved,2024-01-07
+SYN-0116,2023-12-21,College of Business,Building E,E-107,dili mulupad ang electric fan sa E-107,Ventilation,Medium,Resolved,2024-01-14
+SYN-0117,2023-12-21,College of Agriculture,Building D,D-104,ang HDMI cable sa D-104 naputol,Audio-Visual,Low,Resolved,2024-01-06
+SYN-0118,2023-12-21,College of Agriculture,Building D,D-106,dili mulupad ang electric fan sa D-106,Ventilation,Medium,Resolved,2023-12-22
+SYN-0119,2023-12-22,College of Education,Building A,A-103,walay display ang projector sa A-103,Audio-Visual,Low,Resolved,2024-01-14
+SYN-0120,2023-12-23,College of Agriculture,Building D,D-101,projector in D-101 no signal,Audio-Visual,Medium,In Progress,
+SYN-0121,2023-12-25,College of Engineering,Building C,C-103,dili mulupad ang electric fan sa C-103,Ventilation,Low,Resolved,2024-01-12
+SYN-0122,2023-12-26,College of Business,Building E,E-104,nag-tulo ang atop sa E-104,Structural,High,Resolved,2023-12-29
+SYN-0123,2024-01-02,College of Computing,Building B,B-106,nag-agas ang gripo sa CR duol sa B-106,Plumbing,Medium,Pending,
+SYN-0124,2024-01-03,College of Education,Building A,A-107,baha ang CR sa A-107,Plumbing,Medium,Resolved,2024-01-06
+SYN-0125,2024-01-05,College of Engineering,Building C,C-101,ang outlet sa C-101 dili mugana,Electrical,Low,In Progress,
+SYN-0126,2024-01-07,College of Business,Building E,E-101,naay ipis sa E-101,Structural,Low,In Progress,
+SYN-0127,2024-01-08,College of Computing,Building B,B-104,roof leak in B-104 when it rains,Structural,Medium,Resolved,2024-01-23
+SYN-0128,2024-01-08,College of Computing,Building B,B-107,sira ang electric fan sa B-107,Ventilation,Medium,In Progress,
+SYN-0129,2024-01-08,College of Engineering,Building C,C-101,"broken ceiling fan in C-101, init kaayo",Ventilation,Medium,Resolved,2024-01-09
+SYN-0130,2024-01-08,College of Education,Building A,A-104,broken chair in A-104,Furniture,Medium,Resolved,2024-01-26
+SYN-0131,2024-01-09,College of Computing,Building B,B-104,sira ang flush sa CR sa B-104,Plumbing,High,In Progress,
+SYN-0132,2024-01-09,College of Engineering,Building C,C-107,dili ma-lock ang pultahan sa C-107,Structural,Low,Resolved,2024-01-23
+SYN-0133,2024-01-09,College of Engineering,Building C,C-105,blurry ang projector sa C-105,Audio-Visual,High,Resolved,2024-01-10
+SYN-0134,2024-01-09,College of Business,Building E,E-106,loose desk legs sa E-106,Furniture,Low,Resolved,2024-01-13
+SYN-0135,2024-01-10,College of Computing,Building B,B-102,"broken ceiling fan in B-102, init kaayo",Ventilation,Low,In Progress,
+SYN-0136,2024-01-10,College of Business,Building E,E-103,nag-tulo ang atop sa E-103,Plumbing,High,Resolved,2024-01-15
+SYN-0137,2024-01-11,College of Education,Building A,A-104,nag-tulo ang atop sa A-104,Structural,Medium,Resolved,2024-01-27
+SYN-0138,2024-01-15,College of Engineering,Building C,C-108,sira ang flush sa CR sa C-108,Plumbing,Medium,In Progress,
+SYN-0139,2024-01-15,College of Agriculture,Building D,D-108,"init kaayo sa D-108, walay hangin",Ventilation,Medium,Resolved,2024-01-25
+SYN-0140,2024-01-15,College of Computing,Building B,B-108,dili ma-lock ang pultahan sa B-108,Structural,Medium,In Progress,
+SYN-0141,2024-01-16,College of Computing,Building B,B-107,problema sa B-107,Electrical,Low,Resolved,2024-01-21
+SYN-0142,2024-01-16,College of Computing,Building B,B-107,walay display ang projector sa B-107,Audio-Visual,Low,Resolved,2024-01-20
+SYN-0143,2024-01-16,College of Computing,Building B,B-103,hugaw kaayo ang B-103,Other,Low,Resolved,2024-01-30
+SYN-0144,2024-01-17,College of Business,Building E,E-102,projector in E-102 no signal,Audio-Visual,Low,Resolved,2024-01-18
+SYN-0145,2024-01-19,College of Engineering,Building C,C-103,sira ang flush sa CR sa C-103,Plumbing,Medium,Resolved,2024-02-06
+SYN-0146,2024-01-21,College of Agriculture,Building D,D-103,dili ma-lock ang pultahan sa D-103,Structural,Medium,In Progress,
+SYN-0147,2024-01-22,College of Agriculture,Building D,D-108,walay basurahan sa D-108,Other,Medium,Resolved,2024-01-26
+SYN-0148,2024-01-23,College of Engineering,Building C,C-105,nag-spark ang switch sa C-105,Electrical,Medium,Resolved,2024-02-04
+SYN-0149,2024-01-23,College of Education,Building A,A-107,walay display ang projector sa A-107,Audio-Visual,Medium,Resolved,2024-02-04
+SYN-0150,2024-01-24,College of Computing,Building B,B-108,"broken ceiling fan in B-108, init kaayo",Ventilation,Medium,In Progress,
+SYN-0151,2024-01-24,College of Engineering,Building C,C-102,naguba ang armchair sa C-102,Furniture,Medium,Resolved,2024-01-26
+SYN-0152,2024-01-24,College of Agriculture,Building D,D-104,ang aircon sa D-104 dili cold,Ventilation,Low,Resolved,2024-02-16
+SYN-0153,2024-01-27,College of Agriculture,Building D,D-102,broken chair in D-102,Furniture,Low,Resolved,2024-02-17
+SYN-0154,2024-02-02,College of Agriculture,Building D,D-108,"broken ceiling fan in D-108, init kaayo",Ventilation,Low,Resolved,2024-02-17
+SYN-0155,2024-02-05,College of Education,Building A,A-103,sira ang lamesa sa teacher sa A-103,Furniture,High,Resolved,2024-02-09
+SYN-0156,2024-02-05,College of Engineering,Building C,C-101,loose desk legs sa C-101,Furniture,Low,Resolved,2024-02-14
+SYN-0157,2024-02-06,College of Education,Building A,A-101,"sira ang ilaw sa A-101, dili mosiga",Electrical,Low,Resolved,2024-02-13
+SYN-0158,2024-02-07,College of Engineering,Building C,C-103,dili mulupad ang electric fan sa C-103,Ventilation,Medium,Resolved,2024-02-21
+SYN-0159,2024-02-09,College of Engineering,Building C,C-107,sira sa C-107,Audio-Visual,Low,Resolved,2024-02-13
+SYN-0160,2024-02-12,College of Computing,Building B,B-102,dili mulupad ang electric fan sa B-102,Ventilation,Medium,Resolved,2024-02-25
+SYN-0161,2024-02-12,College of Agriculture,Building D,D-101,blurry ang projector sa D-101,Audio-Visual,Medium,Resolved,2024-02-16
+SYN-0162,2024-02-12,College of Engineering,Building C,C-105,broken chair in C-105,Furniture,Low,Resolved,2024-02-17
+SYN-0163,2024-02-13,College of Education,Building A,A-107,"problema sa A-107, palihug check",Other,Low,Resolved,2024-02-23
+SYN-0164,2024-02-13,College of Engineering,Building C,C-104,hugaw kaayo ang C-104,Other,Medium,Resolved,2024-03-03
+SYN-0165,2024-02-14,College of Education,Building A,A-101,"broken ceiling fan in A-101, init kaayo",Ventilation,Low,In Progress,
+SYN-0166,2024-02-15,College of Engineering,Building C,C-103,roof leak in C-103 when it rains,Structural,Low,Resolved,2024-03-03
+SYN-0167,2024-02-16,College of Agriculture,Building D,D-108,sira ang speaker sa D-108,Audio-Visual,Low,Resolved,2024-03-06
+SYN-0168,2024-02-16,College of Computing,Building B,B-104,nag-tulo ang atop sa B-104,Structural,Medium,In Progress,
+SYN-0169,2024-02-17,College of Agriculture,Building D,D-102,nag-tulo ang atop sa D-102,Structural,Medium,Resolved,2024-02-26
+SYN-0170,2024-02-17,College of Engineering,Building C,C-108,baha ang CR sa C-108,Plumbing,High,Pending,
+SYN-0171,2024-02-18,College of Engineering,Building C,C-108,nahulog ang whiteboard sa C-108,Furniture,Low,Resolved,2024-03-10
+SYN-0172,2024-02-19,College of Engineering,Building C,C-103,sira ang flush sa CR sa C-103,Plumbing,Low,Resolved,2024-02-21
+SYN-0173,2024-02-19,College of Agriculture,Building D,D-102,nahulog ang whiteboard sa D-102,Furniture,Low,Resolved,2024-03-05
+SYN-0174,2024-02-20,College of Computing,Building B,B-106,dili mulupad ang electric fan sa B-106,Ventilation,High,In Progress,
+SYN-0175,2024-02-21,College of Engineering,Building C,C-107,naay ipis sa C-107,Other,Medium,Resolved,2024-02-27
+SYN-0176,2024-02-21,College of Agriculture,Building D,D-105,nahulog ang whiteboard sa D-105,Furniture,Medium,Resolved,2024-02-25
+SYN-0177,2024-02-23,College of Business,Building E,E-106,"broken ceiling fan in E-106, init kaayo",Ventilation,Medium,Resolved,2024-03-05
+SYN-0178,2024-02-25,College of Computing,Building B,B-103,walay kuryente ang outlet sa B-103,Electrical,Medium,In Progress,
+SYN-0179,2024-02-27,College of Agriculture,Building D,D-103,nag-agas ang gripo sa CR duol sa D-103,Plumbing,Medium,In Progress,
+SYN-0180,2024-03-02,College of Computing,Building B,B-103,kinahanglan i-repair sa B-103,Furniture,Low,Pending,
+SYN-0181,2024-03-02,College of Engineering,Building C,C-108,electric fan sa C-108 naghimo og kasaba,Ventilation,Low,Resolved,2024-03-17
+SYN-0182,2024-03-03,College of Engineering,Building C,C-101,baha ang CR sa C-101,Plumbing,High,In Progress,
+SYN-0183,2024-03-03,College of Engineering,Building C,C-108,dili mugana ang projector sa C-108,Other,Low,In Progress,
+SYN-0184,2024-03-03,College of Computing,Building B,B-102,sira ang electric fan sa B-102,Ventilation,Low,Resolved,2024-03-05
+SYN-0185,2024-03-04,College of Education,Building A,A-104,naay ipis sa A-104,Other,Medium,Pending,
+SYN-0186,2024-03-04,College of Computing,Building B,B-106,dili mugana ang projector sa B-106,Audio-Visual,High,Resolved,2024-03-09
+SYN-0187,2024-03-04,College of Engineering,Building C,C-107,"problema sa C-107, palihug check",Other,Low,Resolved,2024-03-13
+SYN-0188,2024-03-05,College of Agriculture,Building D,D-103,"broken ceiling fan in D-103, init kaayo",Ventilation,Medium,Resolved,2024-03-20
+SYN-0189,2024-03-07,College of Agriculture,Building D,D-106,walay basurahan sa D-106,Other,Medium,Resolved,2024-03-19
+SYN-0190,2024-03-09,College of Engineering,Building C,C-105,dili mugana ang projector sa C-105,Audio-Visual,Low,Resolved,2024-03-23
+SYN-0191,2024-03-10,College of Agriculture,Building D,D-101,sira ang speaker sa D-101,Audio-Visual,Low,Resolved,2024-03-28
+SYN-0192,2024-03-12,College of Engineering,Building C,C-108,nag-spark ang switch sa C-108,Electrical,Medium,Resolved,2024-03-27
+SYN-0193,2024-03-13,College of Agriculture,Building D,D-107,"sira ang ilaw sa D-107, dili mosiga",Electrical,Low,Resolved,2024-03-15
+SYN-0194,2024-03-15,College of Business,Building E,E-106,sira ang pultahan sa E-106,Structural,Low,In Progress,
+SYN-0195,2024-03-18,College of Engineering,Building C,C-105,sira sa C-105,Electrical,Medium,Resolved,2024-03-25
+SYN-0196,2024-03-18,College of Education,Building A,A-102,"broken ceiling fan in A-102, init kaayo",Ventilation,Medium,Resolved,2024-03-24
+SYN-0197,2024-03-18,College of Agriculture,Building D,D-107,electric fan sa D-107 naghimo og kasaba,Ventilation,Low,Resolved,2024-03-21
+SYN-0198,2024-03-19,College of Agriculture,Building D,D-105,sira ang lamesa sa teacher sa D-105,Furniture,Low,Resolved,2024-04-11
+SYN-0199,2024-03-19,College of Computing,Building B,B-108,roof leak in B-108 when it rains,Structural,Medium,In Progress,
+SYN-0200,2024-03-20,College of Engineering,Building C,C-105,nahulog ang whiteboard sa C-105,Furniture,Medium,Resolved,2024-04-09
+SYN-0201,2024-03-21,College of Business,Building E,E-107,baha ang CR sa E-107,Plumbing,High,Pending,
+SYN-0202,2024-03-22,College of Business,Building E,E-102,"sira ang ilaw sa E-102, dili mosiga",Audio-Visual,Medium,In Progress,
+SYN-0203,2024-03-22,College of Engineering,Building C,C-103,ang outlet sa C-103 dili mugana,Electrical,Medium,Resolved,2024-04-14
+SYN-0204,2024-03-23,College of Business,Building E,E-102,dili mugana ang projector sa E-102,Audio-Visual,Low,Resolved,2024-04-14
+SYN-0205,2024-03-23,College of Agriculture,Building D,D-103,sira ang speaker sa D-103,Audio-Visual,Low,Resolved,2024-04-06
+SYN-0206,2024-03-23,College of Engineering,Building C,C-105,gi-crack ang dingding sa C-105,Structural,Medium,Pending,
+SYN-0207,2024-03-25,College of Computing,Building B,B-105,hugaw kaayo ang B-105,Other,Low,Pending,
+SYN-0208,2024-03-26,College of Business,Building E,E-102,electric fan sa E-102 naghimo og kasaba,Ventilation,High,Resolved,2024-03-28
+SYN-0209,2024-03-27,College of Business,Building E,E-102,sira ang flush sa CR sa E-102,Plumbing,High,In Progress,
+SYN-0210,2024-04-01,College of Education,Building A,A-102,naay ipis sa A-102,Other,Low,Resolved,2024-04-19
+SYN-0211,2024-04-01,College of Engineering,Building C,C-103,roof leak in C-103 when it rains,Structural,High,Resolved,2024-04-07
+SYN-0212,2024-04-02,College of Business,Building E,E-108,sira ang lamesa sa teacher sa E-108,Furniture,Medium,In Progress,
+SYN-0213,2024-04-03,College of Agriculture,Building D,D-106,kulang ang armchairs sa D-106,Furniture,Low,Pending,
+SYN-0214,2024-04-06,College of Computing,Building B,B-103,"sira ang ilaw sa B-103, dili mosiga",Electrical,Medium,Pending,
+SYN-0215,2024-04-06,College of Agriculture,Building D,D-108,loose desk legs sa D-108,Furniture,High,Resolved,2024-04-12
+SYN-0216,2024-04-07,College of Computing,Building B,B-106,nahulog ang whiteboard sa B-106,Furniture,Low,Resolved,2024-04-27
+SYN-0217,2024-04-08,College of Business,Building E,E-103,naguba ang armchair sa E-103,Furniture,Low,Resolved,2024-04-23
+SYN-0218,2024-04-10,College of Engineering,Building C,C-104,walay display ang projector sa C-104,Audio-Visual,High,Resolved,2024-04-17
+SYN-0219,2024-04-11,College of Agriculture,Building D,D-106,electric fan sa D-106 naghimo og kasaba,Ventilation,Low,Resolved,2024-04-26
+SYN-0220,2024-04-15,College of Agriculture,Building D,D-107,sira ang flush sa CR sa D-107,Plumbing,Medium,Resolved,2024-04-22
+SYN-0221,2024-04-16,College of Business,Building E,E-108,"init kaayo sa E-108, walay hangin",Ventilation,Medium,Resolved,2024-05-07
+SYN-0222,2024-04-16,College of Computing,Building B,B-103,"init kaayo sa B-103, walay hangin",Ventilation,Medium,Resolved,2024-05-01
+SYN-0223,2024-04-18,College of Business,Building E,E-108,naay ipis sa E-108,Other,Low,Resolved,2024-05-01
+SYN-0224,2024-04-18,College of Business,Building E,E-102,ang aircon sa E-102 dili cold,Ventilation,Medium,Resolved,2024-04-25
+SYN-0225,2024-04-20,College of Computing,Building B,B-106,hugaw kaayo ang B-106,Other,High,In Progress,
+SYN-0226,2024-04-21,College of Agriculture,Building D,D-106,busted light bulb in D-106,Electrical,Low,Resolved,2024-04-27
+SYN-0227,2024-04-21,College of Business,Building E,E-108,ang outlet sa E-108 dili mugana,Electrical,Low,In Progress,
+SYN-0228,2024-05-01,College of Business,Building E,E-107,blurry ang projector sa E-107,Audio-Visual,Low,Resolved,2024-05-18
+SYN-0229,2024-05-02,College of Education,Building A,A-104,roof leak in A-104 when it rains,Structural,High,Resolved,2024-05-06
+SYN-0230,2024-05-02,College of Education,Building A,A-106,hugaw kaayo ang A-106,Other,Medium,Resolved,2024-05-17
+SYN-0231,2024-05-02,College of Business,Building E,E-108,broken chair in E-108,Furniture,High,Resolved,2024-05-03
+SYN-0232,2024-05-02,College of Business,Building E,E-106,gi-crack ang dingding sa E-106,Structural,Medium,Resolved,2024-05-16
+SYN-0233,2024-05-02,College of Engineering,Building C,C-103,dili mugana ang projector sa C-103,Audio-Visual,Medium,In Progress,
+SYN-0234,2024-05-03,College of Agriculture,Building D,D-107,sira sa D-107,Electrical,Medium,Resolved,2024-05-27
+SYN-0235,2024-05-06,College of Education,Building A,A-108,sira ang electric fan sa A-108,Ventilation,Low,Pending,
+SYN-0236,2024-05-12,College of Agriculture,Building D,D-102,nag-tulo ang atop sa D-102,Structural,High,Resolved,2024-05-13
+SYN-0237,2024-05-12,College of Agriculture,Building D,D-108,dili mulupad ang electric fan sa D-108,Audio-Visual,Low,Resolved,2024-05-30
+SYN-0238,2024-05-14,College of Engineering,Building C,C-105,"init kaayo sa C-105, walay hangin",Ventilation,Low,Resolved,2024-05-22
+SYN-0239,2024-05-14,College of Agriculture,Building D,D-101,sira ang pultahan sa D-101,Audio-Visual,Low,Resolved,2024-05-16
+SYN-0240,2024-05-15,College of Education,Building A,A-108,projector in A-108 no signal,Audio-Visual,Medium,Resolved,2024-05-18
+SYN-0241,2024-05-17,College of Business,Building E,E-102,broken window glass in E-102,Structural,Medium,Resolved,2024-05-18
+SYN-0242,2024-05-18,College of Education,Building A,A-107,sira ang electric fan sa A-107,Ventilation,Low,Resolved,2024-06-11
+SYN-0243,2024-05-22,College of Agriculture,Building D,D-107,dili mulupad ang electric fan sa D-107,Ventilation,Low,Resolved,2024-05-31
+SYN-0244,2024-05-22,College of Business,Building E,E-104,loose desk legs sa E-104,Furniture,Low,Resolved,2024-05-31
+SYN-0245,2024-05-22,College of Engineering,Building C,C-108,ang aircon sa C-108 dili cold,Ventilation,Low,Resolved,2024-05-25
+SYN-0246,2024-05-23,College of Business,Building E,E-103,ang aircon sa E-103 dili cold,Ventilation,Medium,In Progress,
+SYN-0247,2024-05-23,College of Business,Building E,E-103,nag-spark ang switch sa E-103,Electrical,High,In Progress,
+SYN-0248,2024-05-23,College of Computing,Building B,B-101,gi-crack ang dingding sa B-101,Structural,Medium,Resolved,2024-06-15
+SYN-0249,2024-05-24,College of Agriculture,Building D,D-103,leaking faucet near D-103,Plumbing,High,In Progress,
+SYN-0250,2024-05-24,College of Computing,Building B,B-103,ang HDMI cable sa B-103 naputol,Audio-Visual,Medium,Resolved,2024-06-04
+SYN-0251,2024-05-25,College of Engineering,Building C,C-105,ang outlet sa C-105 dili mugana,Electrical,Low,Resolved,2024-05-28
+SYN-0252,2024-05-25,College of Business,Building E,E-104,"problema sa E-104, palihug check",Other,Low,Resolved,2024-06-01
+SYN-0253,2024-05-26,College of Agriculture,Building D,D-106,sira ang electric fan sa D-106,Ventilation,Medium,Resolved,2024-05-28
+SYN-0254,2024-06-01,College of Agriculture,Building D,D-108,dili mulupad ang electric fan sa D-108,Ventilation,Low,Resolved,2024-06-19
+SYN-0255,2024-06-01,College of Computing,Building B,B-101,ang aircon sa B-101 dili cold,Ventilation,Medium,Resolved,2024-06-12
+SYN-0256,2024-06-02,College of Engineering,Building C,C-107,sira ang electric fan sa C-107,Ventilation,Low,In Progress,
+SYN-0257,2024-06-02,College of Computing,Building B,B-103,dili mulupad ang electric fan sa B-103,Ventilation,High,In Progress,
+SYN-0258,2024-06-02,College of Education,Building A,A-102,ang aircon sa A-102 dili cold,Ventilation,Low,Pending,
+SYN-0259,2024-06-05,College of Agriculture,Building D,D-108,busted light bulb in D-108,Electrical,Low,Resolved,2024-06-24
+SYN-0260,2024-06-06,College of Engineering,Building C,C-104,naguba ang armchair sa C-104,Furniture,Medium,Resolved,2024-06-23
+SYN-0261,2024-06-06,College of Education,Building A,A-104,projector in A-104 no signal,Audio-Visual,Medium,Resolved,2024-06-26
+SYN-0262,2024-06-06,College of Agriculture,Building D,D-106,walay display ang projector sa D-106,Audio-Visual,Low,In Progress,
+SYN-0263,2024-06-07,College of Agriculture,Building D,D-108,baha ang CR sa D-108,Plumbing,Medium,Resolved,2024-06-25
+SYN-0264,2024-06-09,College of Agriculture,Building D,D-107,flickering lights sa D-107,Electrical,High,Resolved,2024-06-10
+SYN-0265,2024-06-10,College of Business,Building E,E-107,ang outlet sa E-107 dili mugana,Electrical,Low,Resolved,2024-07-03
+SYN-0266,2024-06-10,College of Computing,Building B,B-105,"problema sa B-105, palihug check",Other,Medium,In Progress,
+SYN-0267,2024-06-13,College of Agriculture,Building D,D-106,sira ang electric fan sa D-106,Ventilation,Low,Pending,
+SYN-0268,2024-06-14,College of Engineering,Building C,C-101,sira ang electric fan sa C-101,Ventilation,Low,Resolved,2024-06-22
+SYN-0269,2024-06-16,College of Engineering,Building C,C-101,walay kuryente ang outlet sa C-101,Electrical,Medium,In Progress,
+SYN-0270,2024-06-18,College of Agriculture,Building D,D-107,electric fan sa D-107 naghimo og kasaba,Ventilation,Medium,Resolved,2024-06-29
+SYN-0271,2024-06-18,College of Engineering,Building C,C-107,walay kuryente ang outlet sa C-107,Electrical,Medium,Resolved,2024-06-23
+SYN-0272,2024-06-20,College of Education,Building A,A-106,walay basurahan sa A-106,Other,Low,Resolved,2024-06-27
+SYN-0273,2024-06-21,College of Education,Building A,A-103,"init kaayo sa A-103, walay hangin",Ventilation,Low,Resolved,2024-06-24
+SYN-0274,2024-06-21,College of Engineering,Building C,C-105,"sira ang ilaw sa C-105, dili mosiga",Electrical,Medium,Pending,
+SYN-0275,2024-06-26,College of Education,Building A,A-107,ang HDMI cable sa A-107 naputol,Furniture,Low,Resolved,2024-06-27
+SYN-0276,2024-06-27,College of Engineering,Building C,C-105,hugaw kaayo ang C-105,Other,Medium,Resolved,2024-07-21
+SYN-0277,2024-06-27,College of Engineering,Building C,C-104,hugaw kaayo ang C-104,Other,High,Resolved,2024-06-30
+SYN-0278,2024-06-27,College of Education,Building A,A-101,ang outlet sa A-101 dili mugana,Electrical,Low,Resolved,2024-07-21
+SYN-0279,2024-07-01,College of Education,Building A,A-101,kinahanglan i-repair sa A-101,Other,Medium,Resolved,2024-07-03
+SYN-0280,2024-07-02,College of Engineering,Building C,C-108,sira ang flush sa CR sa C-108,Plumbing,Medium,Resolved,2024-07-17
+SYN-0281,2024-07-04,College of Business,Building E,E-106,dili mulupad ang electric fan sa E-106,Ventilation,Medium,Resolved,2024-07-20
+SYN-0282,2024-07-06,College of Business,Building E,E-106,"sira ang ilaw sa E-106, dili mosiga",Electrical,High,Resolved,2024-07-11
+SYN-0283,2024-07-08,College of Agriculture,Building D,D-107,ang aircon sa D-107 dili cold,Ventilation,Medium,Resolved,2024-07-18
+SYN-0284,2024-07-08,College of Business,Building E,E-104,blurry ang projector sa E-104,Audio-Visual,Low,Resolved,2024-07-12
+SYN-0285,2024-07-11,College of Computing,Building B,B-102,dili mulupad ang electric fan sa B-102,Ventilation,Medium,Resolved,2024-07-24
+SYN-0286,2024-07-12,College of Education,Building A,A-107,broken window glass in A-107,Structural,Medium,Resolved,2024-07-16
+SYN-0287,2024-07-13,College of Computing,Building B,B-104,"broken ceiling fan in B-104, init kaayo",Ventilation,Low,Resolved,2024-08-06
+SYN-0288,2024-07-14,College of Engineering,Building C,C-103,"broken ceiling fan in C-103, init kaayo",Ventilation,Medium,In Progress,
+SYN-0289,2024-07-15,College of Agriculture,Building D,D-104,clogged sink near D-104,Plumbing,Medium,Pending,
+SYN-0290,2024-07-17,College of Agriculture,Building D,D-104,blurry ang projector sa D-104,Audio-Visual,Medium,Resolved,2024-08-05
+SYN-0291,2024-07-18,College of Agriculture,Building D,D-101,broken window glass in D-101,Structural,Medium,Resolved,2024-08-02
+SYN-0292,2024-07-19,College of Computing,Building B,B-102,"sira ang ilaw sa B-102, dili mosiga",Electrical,Medium,Resolved,2024-08-03
+SYN-0293,2024-07-22,College of Engineering,Building C,C-105,hugaw kaayo ang C-105,Furniture,Low,Resolved,2024-08-11
+SYN-0294,2024-07-23,College of Education,Building A,A-104,dili mugana ang projector sa A-104,Audio-Visual,Low,Resolved,2024-08-02
+SYN-0295,2024-07-25,College of Education,Building A,A-105,baha ang CR sa A-105,Plumbing,Medium,Resolved,2024-08-18
+SYN-0296,2024-07-26,College of Education,Building A,A-103,dili ma-lock ang pultahan sa A-103,Structural,Medium,Resolved,2024-08-12
+SYN-0297,2024-08-02,College of Education,Building A,A-102,kinahanglan i-repair sa A-102,Furniture,Low,Resolved,2024-08-20
+SYN-0298,2024-08-02,College of Engineering,Building C,C-101,sira ang pultahan sa C-101,Structural,Low,Resolved,2024-08-17
+SYN-0299,2024-08-03,College of Education,Building A,A-105,roof leak in A-105 when it rains,Structural,High,Resolved,2024-08-10
+SYN-0300,2024-08-05,College of Agriculture,Building D,D-101,hugaw kaayo ang D-101,Other,Low,Resolved,2024-08-19
+SYN-0301,2024-08-06,College of Engineering,Building C,C-106,blurry ang projector sa C-106,Audio-Visual,High,Pending,
+SYN-0302,2024-08-07,College of Education,Building A,A-104,problema sa A-104,Audio-Visual,Medium,Resolved,2024-08-15
+SYN-0303,2024-08-08,College of Computing,Building B,B-107,flickering lights sa B-107,Electrical,Medium,In Progress,
+SYN-0304,2024-08-09,College of Business,Building E,E-107,dili mugana ang projector sa E-107,Audio-Visual,Low,Resolved,2024-08-19
+SYN-0305,2024-08-11,College of Agriculture,Building D,D-103,palihug check sa D-103,Ventilation,Low,Resolved,2024-09-03
+SYN-0306,2024-08-11,College of Computing,Building B,B-106,ang aircon sa B-106 dili cold,Ventilation,Medium,Resolved,2024-08-15
+SYN-0307,2024-08-11,College of Computing,Building B,B-105,sira ang lamesa sa teacher sa B-105,Furniture,Low,Resolved,2024-08-15
+SYN-0308,2024-08-11,College of Engineering,Building C,C-108,ang HDMI cable sa C-108 naputol,Audio-Visual,Low,In Progress,
+SYN-0309,2024-08-12,College of Business,Building E,E-102,baha ang CR sa E-102,Plumbing,Low,Resolved,2024-08-31
+SYN-0310,2024-08-12,College of Agriculture,Building D,D-106,sira ang lamesa sa teacher sa D-106,Furniture,Medium,In Progress,
+SYN-0311,2024-08-13,College of Computing,Building B,B-107,blurry ang projector sa B-107,Audio-Visual,Low,Pending,
+SYN-0312,2024-08-16,College of Computing,Building B,B-106,ang HDMI cable sa B-106 naputol,Audio-Visual,Medium,Resolved,2024-08-23
+SYN-0313,2024-08-16,College of Education,Building A,A-107,busted light bulb in A-107,Electrical,High,Resolved,2024-08-18
+SYN-0314,2024-08-17,College of Education,Building A,A-102,clogged sink near A-102,Plumbing,Low,Pending,
+SYN-0315,2024-08-17,College of Business,Building E,E-108,nag-agas ang gripo sa CR duol sa E-108,Plumbing,Low,Resolved,2024-09-07
+SYN-0316,2024-08-17,College of Business,Building E,E-105,kulang ang armchairs sa E-105,Furniture,Low,Resolved,2024-09-01
+SYN-0317,2024-08-19,College of Education,Building A,A-104,loose desk legs sa A-104,Furniture,Medium,Resolved,2024-08-25
+SYN-0318,2024-08-19,College of Business,Building E,E-103,nahulog ang whiteboard sa E-103,Furniture,Low,Resolved,2024-08-27
+SYN-0319,2024-08-20,College of Education,Building A,A-106,loose desk legs sa A-106,Furniture,Low,Resolved,2024-08-27
+SYN-0320,2024-08-20,College of Education,Building A,A-101,sira ang speaker sa A-101,Audio-Visual,Medium,Resolved,2024-08-29
+SYN-0321,2024-08-21,College of Computing,Building B,B-106,"sira ang ilaw sa B-106, dili mosiga",Electrical,Medium,Resolved,2024-09-07
+SYN-0322,2024-08-23,College of Engineering,Building C,C-104,roof leak in C-104 when it rains,Structural,Medium,In Progress,
+SYN-0323,2024-08-24,College of Agriculture,Building D,D-107,ang aircon sa D-107 dili cold,Ventilation,Low,Resolved,2024-08-29
+SYN-0324,2024-08-26,College of Agriculture,Building D,D-104,gi-crack ang dingding sa D-104,Structural,Medium,Resolved,2024-09-11
+SYN-0325,2024-08-27,College of Education,Building A,A-107,sira ang speaker sa A-107,Audio-Visual,Medium,Resolved,2024-09-04
+SYN-0326,2024-08-27,College of Education,Building A,A-101,loose desk legs sa A-101,Furniture,Medium,Resolved,2024-09-04
+SYN-0327,2024-08-27,College of Education,Building A,A-102,walay basurahan sa A-102,Other,High,Resolved,2024-08-31
+SYN-0328,2024-09-02,College of Education,Building A,A-108,"init kaayo sa A-108, walay hangin",Ventilation,Low,In Progress,
+SYN-0329,2024-09-02,College of Computing,Building B,B-104,kinahanglan i-repair sa B-104,Plumbing,Low,Resolved,2024-09-12
+SYN-0330,2024-09-03,College of Education,Building A,A-102,sira sa A-102,Electrical,Low,In Progress,
+SYN-0331,2024-09-06,College of Agriculture,Building D,D-103,"init kaayo sa D-103, walay hangin",Ventilation,High,In Progress,
+SYN-0332,2024-09-06,College of Engineering,Building C,C-108,loose desk legs sa C-108,Ventilation,Low,In Progress,
+SYN-0333,2024-09-07,College of Education,Building A,A-101,palihug check sa A-101,Audio-Visual,Low,In Progress,
+SYN-0334,2024-09-10,College of Computing,Building B,B-105,leaking faucet near B-105,Plumbing,High,Resolved,2024-09-16
+SYN-0335,2024-09-10,College of Computing,Building B,B-106,walay basurahan sa B-106,Other,Medium,Pending,
+SYN-0336,2024-09-12,College of Business,Building E,E-101,dili ma-lock ang pultahan sa E-101,Structural,Medium,In Progress,
+SYN-0337,2024-09-14,College of Business,Building E,E-108,blurry ang projector sa E-108,Audio-Visual,Low,Pending,
+SYN-0338,2024-09-16,College of Agriculture,Building D,D-106,"init kaayo sa D-106, walay hangin",Ventilation,Medium,Resolved,2024-10-05
+SYN-0339,2024-09-16,College of Education,Building A,A-105,leaking faucet near A-105,Plumbing,Medium,In Progress,
+SYN-0340,2024-09-16,College of Education,Building A,A-108,loose desk legs sa A-108,Furniture,Low,Resolved,2024-10-07
+SYN-0341,2024-09-18,College of Agriculture,Building D,D-108,ang aircon sa D-108 dili cold,Ventilation,Low,Resolved,2024-09-28
+SYN-0342,2024-09-19,College of Education,Building A,A-108,hugaw kaayo ang A-108,Other,Medium,Resolved,2024-10-02
+SYN-0343,2024-09-20,College of Engineering,Building C,C-103,sira ang lamesa sa teacher sa C-103,Furniture,Low,In Progress,
+SYN-0344,2024-09-21,College of Computing,Building B,B-103,ang aircon sa B-103 dili cold,Ventilation,Medium,Pending,
+SYN-0345,2024-09-21,College of Agriculture,Building D,D-108,nag-spark ang switch sa D-108,Electrical,High,Resolved,2024-09-26
+SYN-0346,2024-09-23,College of Agriculture,Building D,D-108,blurry ang projector sa D-108,Audio-Visual,Low,Resolved,2024-09-24
+SYN-0347,2024-09-24,College of Computing,Building B,B-103,flickering lights sa B-103,Electrical,Medium,Resolved,2024-10-09
+SYN-0348,2024-09-27,College of Engineering,Building C,C-108,sira ang flush sa CR sa C-108,Plumbing,Low,Resolved,2024-10-03
+SYN-0349,2024-10-01,College of Computing,Building B,B-106,ang aircon sa B-106 dili cold,Ventilation,Medium,Resolved,2024-10-14
+SYN-0350,2024-10-03,College of Business,Building E,E-102,walay basurahan sa E-102,Other,Low,Resolved,2024-10-14
+SYN-0351,2024-10-03,College of Education,Building A,A-106,sira ang speaker sa A-106,Audio-Visual,Medium,In Progress,
+SYN-0352,2024-10-03,College of Education,Building A,A-106,sira ang pultahan sa A-106,Structural,Low,Resolved,2024-10-17
+SYN-0353,2024-10-03,College of Education,Building A,A-102,walay display ang projector sa A-102,Audio-Visual,Low,In Progress,
+SYN-0354,2024-10-04,College of Education,Building A,A-104,nag-tulo ang atop sa A-104,Structural,Medium,Resolved,2024-10-09
+SYN-0355,2024-10-04,College of Engineering,Building C,C-101,dili mulupad ang electric fan sa C-101,Ventilation,Low,Resolved,2024-10-10
+SYN-0356,2024-10-05,College of Education,Building A,A-101,ang aircon sa A-101 dili cold,Ventilation,Medium,Resolved,2024-10-28
+SYN-0357,2024-10-05,College of Computing,Building B,B-102,nag-tulo ang atop sa B-102,Structural,Medium,Pending,
+SYN-0358,2024-10-08,College of Education,Building A,A-102,sira sa A-102,Other,Medium,In Progress,
+SYN-0359,2024-10-08,College of Education,Building A,A-107,walay display ang projector sa A-107,Audio-Visual,Low,Resolved,2024-10-29
+SYN-0360,2024-10-11,College of Engineering,Building C,C-101,"sira ang ilaw sa C-101, dili mosiga",Electrical,Medium,Pending,
+SYN-0361,2024-10-11,College of Education,Building A,A-106,busted light bulb in A-106,Electrical,High,Resolved,2024-10-15
+SYN-0362,2024-10-14,College of Computing,Building B,B-105,nag-agas ang gripo sa CR duol sa B-105,Plumbing,Medium,Resolved,2024-11-06
+SYN-0363,2024-10-14,College of Agriculture,Building D,D-101,sira ang electric fan sa D-101,Ventilation,Low,Resolved,2024-10-20
+SYN-0364,2024-10-17,College of Computing,Building B,B-105,dili ma-lock ang pultahan sa B-105,Structural,Medium,Resolved,2024-10-29
+SYN-0365,2024-10-18,College of Business,Building E,E-103,sira ang electric fan sa E-103,Ventilation,Low,Resolved,2024-10-29
+SYN-0366,2024-10-18,College of Engineering,Building C,C-103,hugaw kaayo ang C-103,Other,High,In Progress,
+SYN-0367,2024-10-19,College of Computing,Building B,B-102,leaking faucet near B-102,Plumbing,High,Resolved,2024-10-25
+SYN-0368,2024-10-19,College of Agriculture,Building D,D-107,loose desk legs sa D-107,Furniture,Low,Pending,
+SYN-0369,2024-10-19,College of Engineering,Building C,C-103,"sira ang ilaw sa C-103, dili mosiga",Electrical,Low,Resolved,2024-11-07
+SYN-0370,2024-10-19,College of Computing,Building B,B-104,walay display ang projector sa B-104,Audio-Visual,Medium,Resolved,2024-11-07
+SYN-0371,2024-10-21,College of Education,Building A,A-102,electric fan sa A-102 naghimo og kasaba,Ventilation,Medium,Resolved,2024-11-04
+SYN-0372,2024-10-23,College of Engineering,Building C,C-103,sira ang electric fan sa C-103,Ventilation,High,In Progress,
+SYN-0373,2024-10-24,College of Education,Building A,A-104,hugaw kaayo ang A-104,Other,High,Resolved,2024-10-30
+SYN-0374,2024-10-24,College of Education,Building A,A-106,"init kaayo sa A-106, walay hangin",Ventilation,Medium,Resolved,2024-11-08
+SYN-0375,2024-10-26,College of Education,Building A,A-107,walay basurahan sa A-107,Other,Low,In Progress,
+SYN-0376,2024-10-26,College of Business,Building E,E-104,nag-agas ang gripo sa CR duol sa E-104,Plumbing,High,Pending,
+SYN-0377,2024-11-01,College of Engineering,Building C,C-106,nahulog ang whiteboard sa C-106,Furniture,Low,Resolved,2024-11-07
+SYN-0378,2024-11-01,College of Computing,Building B,B-107,"broken ceiling fan in B-107, init kaayo",Ventilation,Medium,Pending,
+SYN-0379,2024-11-02,College of Education,Building A,A-107,baha ang CR sa A-107,Plumbing,High,Resolved,2024-11-11
+SYN-0380,2024-11-02,College of Agriculture,Building D,D-106,dili mulupad ang electric fan sa D-106,Ventilation,Low,Resolved,2024-11-23
+SYN-0381,2024-11-04,College of Agriculture,Building D,D-102,problema sa D-102,Furniture,Low,Resolved,2024-11-11
+SYN-0382,2024-11-05,College of Business,Building E,E-103,dili mulupad ang electric fan sa E-103,Ventilation,Low,Resolved,2024-11-07
+SYN-0383,2024-11-07,College of Business,Building E,E-108,gi-crack ang dingding sa E-108,Structural,Low,Resolved,2024-11-17
+SYN-0384,2024-11-08,College of Computing,Building B,B-101,blurry ang projector sa B-101,Audio-Visual,High,Resolved,2024-11-10
+SYN-0385,2024-11-09,College of Engineering,Building C,C-108,busted light bulb in C-108,Electrical,Medium,Resolved,2024-11-30
+SYN-0386,2024-11-10,College of Education,Building A,A-104,roof leak in A-104 when it rains,Structural,High,In Progress,
+SYN-0387,2024-11-11,College of Computing,Building B,B-106,sira ang lamesa sa teacher sa B-106,Furniture,Medium,Resolved,2024-11-22
+SYN-0388,2024-11-13,College of Engineering,Building C,C-107,naguba ang armchair sa C-107,Furniture,Medium,Resolved,2024-11-25
+SYN-0389,2024-11-17,College of Engineering,Building C,C-101,"sira ang ilaw sa C-101, dili mosiga",Electrical,High,Resolved,2024-11-20
+SYN-0390,2024-11-18,College of Agriculture,Building D,D-101,leaking faucet near D-101,Plumbing,Medium,Resolved,2024-12-03
+SYN-0391,2024-11-19,College of Business,Building E,E-107,sira ang pultahan sa E-107,Structural,Medium,Resolved,2024-11-23
+SYN-0392,2024-11-20,College of Business,Building E,E-108,dili mulupad ang electric fan sa E-108,Ventilation,Low,Resolved,2024-12-14
+SYN-0393,2024-11-20,College of Engineering,Building C,C-101,walay basurahan sa C-101,Other,Medium,Resolved,2024-12-12
+SYN-0394,2024-11-21,College of Business,Building E,E-103,baha ang CR sa E-103,Plumbing,Low,Resolved,2024-12-13
+SYN-0395,2024-11-23,College of Computing,Building B,B-107,ang HDMI cable sa B-107 naputol,Audio-Visual,Medium,Resolved,2024-12-01
+SYN-0396,2024-11-23,College of Agriculture,Building D,D-102,sira ang electric fan sa D-102,Ventilation,Medium,Resolved,2024-12-17
+SYN-0397,2024-11-25,College of Education,Building A,A-106,ang aircon sa A-106 dili cold,Ventilation,Low,Resolved,2024-12-04
+SYN-0398,2024-11-25,College of Education,Building A,A-105,kinahanglan i-repair sa A-105,Electrical,Medium,Resolved,2024-12-18
+SYN-0399,2024-11-26,College of Engineering,Building C,C-101,kulang ang armchairs sa C-101,Furniture,High,In Progress,
+SYN-0400,2024-11-27,College of Engineering,Building C,C-108,"init kaayo sa C-108, walay hangin",Ventilation,Low,In Progress,
+SYN-0401,2024-11-27,College of Agriculture,Building D,D-101,sira ang electric fan sa D-101,Ventilation,Medium,Resolved,2024-11-28
+SYN-0402,2024-12-02,College of Engineering,Building C,C-102,problema sa C-102,Other,Low,Pending,
+SYN-0403,2024-12-02,College of Education,Building A,A-101,sira ang flush sa CR sa A-101,Plumbing,Medium,In Progress,
+SYN-0404,2024-12-03,College of Business,Building E,E-105,busted light bulb in E-105,Electrical,Low,Resolved,2024-12-05
+SYN-0405,2024-12-03,College of Business,Building E,E-108,"init kaayo sa E-108, walay hangin",Ventilation,High,In Progress,
+SYN-0406,2024-12-05,College of Business,Building E,E-105,dili mugana ang projector sa E-105,Audio-Visual,Low,Resolved,2024-12-12
+SYN-0407,2024-12-06,College of Agriculture,Building D,D-108,walay kuryente ang outlet sa D-108,Electrical,High,Resolved,2024-12-11
+SYN-0408,2024-12-07,College of Computing,Building B,B-105,"problema sa B-105, palihug check",Other,High,Resolved,2024-12-12
+SYN-0409,2024-12-11,College of Engineering,Building C,C-107,blurry ang projector sa C-107,Audio-Visual,Low,Resolved,2024-12-13
+SYN-0410,2024-12-11,College of Agriculture,Building D,D-101,blurry ang projector sa D-101,Audio-Visual,Medium,Resolved,2024-12-22
+SYN-0411,2024-12-11,College of Agriculture,Building D,D-106,sira sa D-106,Other,Medium,Resolved,2024-12-21
+SYN-0412,2024-12-12,College of Agriculture,Building D,D-106,"init kaayo sa D-106, walay hangin",Ventilation,Medium,Resolved,2025-01-04
+SYN-0413,2024-12-13,College of Agriculture,Building D,D-101,ang outlet sa D-101 dili mugana,Electrical,Low,Resolved,2024-12-28
+SYN-0414,2024-12-15,College of Education,Building A,A-106,baha ang CR sa A-106,Plumbing,Medium,In Progress,
+SYN-0415,2024-12-15,College of Computing,Building B,B-103,"init kaayo sa B-103, walay hangin",Ventilation,High,Resolved,2024-12-18
+SYN-0416,2024-12-16,College of Agriculture,Building D,D-106,nag-spark ang switch sa D-106,Electrical,Medium,Resolved,2024-12-26
+SYN-0417,2024-12-16,College of Computing,Building B,B-103,walay kuryente ang outlet sa B-103,Electrical,Low,Resolved,2025-01-04
+SYN-0418,2024-12-17,College of Engineering,Building C,C-108,"init kaayo sa C-108, walay hangin",Ventilation,Medium,Resolved,2025-01-05
+SYN-0419,2024-12-22,College of Computing,Building B,B-105,palihug check sa B-105,Structural,High,Resolved,2024-12-29
+SYN-0420,2024-12-22,College of Agriculture,Building D,D-107,"init kaayo sa D-107, walay hangin",Ventilation,Medium,Resolved,2024-12-23
+SYN-0421,2024-12-24,College of Business,Building E,E-105,kinahanglan i-repair sa E-105,Plumbing,Low,In Progress,
+SYN-0422,2024-12-25,College of Agriculture,Building D,D-108,ang HDMI cable sa D-108 naputol,Audio-Visual,Medium,Resolved,2025-01-05
+SYN-0423,2024-12-27,College of Computing,Building B,B-107,broken chair in B-107,Furniture,Low,Resolved,2024-12-30
+SYN-0424,2025-01-02,College of Engineering,Building C,C-103,leaking faucet near C-103,Plumbing,High,Resolved,2025-01-07
+SYN-0425,2025-01-03,College of Computing,Building B,B-105,clogged sink near B-105,Plumbing,Low,Resolved,2025-01-21
+SYN-0426,2025-01-03,College of Agriculture,Building D,D-106,sira ang electric fan sa D-106,Ventilation,Low,Resolved,2025-01-06
+SYN-0427,2025-01-04,College of Engineering,Building C,C-107,dili ma-lock ang pultahan sa C-107,Structural,Low,Resolved,2025-01-10
+SYN-0428,2025-01-04,College of Agriculture,Building D,D-106,sira ang flush sa CR sa D-106,Plumbing,Medium,Resolved,2025-01-05
+SYN-0429,2025-01-04,College of Engineering,Building C,C-105,electric fan sa C-105 naghimo og kasaba,Ventilation,Medium,Resolved,2025-01-05
+SYN-0430,2025-01-05,College of Computing,Building B,B-106,sira ang electric fan sa B-106,Ventilation,Low,In Progress,
+SYN-0431,2025-01-07,College of Engineering,Building C,C-105,loose desk legs sa C-105,Furniture,Low,Resolved,2025-01-14
+SYN-0432,2025-01-07,College of Business,Building E,E-102,sira ang speaker sa E-102,Audio-Visual,Low,Resolved,2025-01-08
+SYN-0433,2025-01-07,College of Business,Building E,E-103,broken window glass in E-103,Structural,Medium,In Progress,
+SYN-0434,2025-01-07,College of Agriculture,Building D,D-107,dili mulupad ang electric fan sa D-107,Ventilation,Medium,Resolved,2025-01-26
+SYN-0435,2025-01-08,College of Computing,Building B,B-102,electric fan sa B-102 naghimo og kasaba,Ventilation,Low,In Progress,
+SYN-0436,2025-01-10,College of Engineering,Building C,C-105,nag-agas ang gripo sa CR duol sa C-105,Plumbing,Medium,Resolved,2025-01-14
+SYN-0437,2025-01-10,College of Engineering,Building C,C-107,sira ang electric fan sa C-107,Ventilation,High,Resolved,2025-01-11
+SYN-0438,2025-01-11,College of Agriculture,Building D,D-106,dili ma-lock ang pultahan sa D-106,Structural,Low,Resolved,2025-01-20
+SYN-0439,2025-01-11,College of Education,Building A,A-102,naay ipis sa A-102,Other,Medium,Pending,
+SYN-0440,2025-01-12,College of Education,Building A,A-104,sira ang flush sa CR sa A-104,Plumbing,High,Resolved,2025-01-17
+SYN-0441,2025-01-12,College of Business,Building E,E-102,ang outlet sa E-102 dili mugana,Electrical,Medium,Resolved,2025-01-25
+SYN-0442,2025-01-13,College of Agriculture,Building D,D-107,ang outlet sa D-107 dili mugana,Electrical,Medium,Pending,
+SYN-0443,2025-01-13,College of Engineering,Building C,C-101,gi-crack ang dingding sa C-101,Structural,Medium,In Progress,
+SYN-0444,2025-01-13,College of Education,Building A,A-102,gi-crack ang dingding sa A-102,Structural,High,Pending,
+SYN-0445,2025-01-15,College of Education,Building A,A-108,projector in A-108 no signal,Audio-Visual,High,Resolved,2025-01-18
+SYN-0446,2025-01-17,College of Computing,Building B,B-106,flickering lights sa B-106,Electrical,Medium,Resolved,2025-01-20
+SYN-0447,2025-01-21,College of Business,Building E,E-101,walay basurahan sa E-101,Other,Medium,Resolved,2025-02-11
+SYN-0448,2025-01-22,College of Agriculture,Building D,D-107,projector in D-107 no signal,Audio-Visual,Low,Resolved,2025-02-06
+SYN-0449,2025-01-22,College of Computing,Building B,B-101,dili ma-lock ang pultahan sa B-101,Structural,Medium,Pending,
+SYN-0450,2025-01-24,College of Computing,Building B,B-101,broken chair in B-101,Furniture,Medium,Resolved,2025-02-12
+SYN-0451,2025-01-27,College of Computing,Building B,B-107,kulang ang armchairs sa B-107,Furniture,Medium,Resolved,2025-01-28
+SYN-0452,2025-01-27,College of Engineering,Building C,C-101,blurry ang projector sa C-101,Audio-Visual,High,Resolved,2025-01-30
+SYN-0453,2025-02-01,College of Computing,Building B,B-104,nag-agas ang gripo sa CR duol sa B-104,Plumbing,Medium,Resolved,2025-02-09
+SYN-0454,2025-02-02,College of Agriculture,Building D,D-106,busted light bulb in D-106,Electrical,Low,Resolved,2025-02-04
+SYN-0455,2025-02-02,College of Computing,Building B,B-104,"problema sa B-104, palihug check",Other,Low,Pending,
+SYN-0456,2025-02-03,College of Education,Building A,A-101,ang HDMI cable sa A-101 naputol,Audio-Visual,Medium,Resolved,2025-02-06
+SYN-0457,2025-02-06,College of Computing,Building B,B-107,walay basurahan sa B-107,Other,High,Resolved,2025-02-09
+SYN-0458,2025-02-07,College of Business,Building E,E-106,walay kuryente ang outlet sa E-106,Electrical,Medium,Resolved,2025-02-19
+SYN-0459,2025-02-08,College of Engineering,Building C,C-108,broken window glass in C-108,Structural,Low,Resolved,2025-02-19
+SYN-0460,2025-02-10,College of Agriculture,Building D,D-106,ang HDMI cable sa D-106 naputol,Audio-Visual,High,In Progress,
+SYN-0461,2025-02-10,College of Agriculture,Building D,D-107,sira ang flush sa CR sa D-107,Plumbing,Low,In Progress,
+SYN-0462,2025-02-10,College of Education,Building A,A-108,kulang ang armchairs sa A-108,Furniture,Medium,Resolved,2025-02-21
+SYN-0463,2025-02-10,College of Computing,Building B,B-104,broken chair in B-104,Furniture,Low,Pending,
+SYN-0464,2025-02-11,College of Engineering,Building C,C-104,baha ang CR sa C-104,Plumbing,Low,Pending,
+SYN-0465,2025-02-12,College of Education,Building A,A-101,flickering lights sa A-101,Electrical,Low,Resolved,2025-02-22
+SYN-0466,2025-02-12,College of Computing,Building B,B-104,walay kuryente ang outlet sa B-104,Electrical,Low,Resolved,2025-02-17
+SYN-0467,2025-02-12,College of Business,Building E,E-101,walay display ang projector sa E-101,Audio-Visual,Low,Resolved,2025-02-19
+SYN-0468,2025-02-14,College of Education,Building A,A-105,dili ma-lock ang pultahan sa A-105,Structural,Medium,Resolved,2025-03-01
+SYN-0469,2025-02-14,College of Engineering,Building C,C-106,broken window glass in C-106,Structural,Medium,Resolved,2025-02-28
+SYN-0470,2025-02-15,College of Agriculture,Building D,D-106,electric fan sa D-106 naghimo og kasaba,Ventilation,Medium,Resolved,2025-02-19
+SYN-0471,2025-02-17,College of Agriculture,Building D,D-108,flickering lights sa D-108,Electrical,Low,In Progress,
+SYN-0472,2025-02-17,College of Business,Building E,E-108,leaking faucet near E-108,Plumbing,High,Resolved,2025-02-20
+SYN-0473,2025-02-17,College of Computing,Building B,B-103,problema sa B-103,Audio-Visual,Low,Resolved,2025-03-10
+SYN-0474,2025-02-17,College of Engineering,Building C,C-104,ang outlet sa C-104 dili mugana,Electrical,Low,Resolved,2025-03-01
+SYN-0475,2025-02-17,College of Engineering,Building C,C-103,sira ang lamesa sa teacher sa C-103,Furniture,Low,Resolved,2025-02-21
+SYN-0476,2025-02-22,College of Engineering,Building C,C-105,sira ang flush sa CR sa C-105,Plumbing,Low,In Progress,
+SYN-0477,2025-02-23,College of Education,Building A,A-101,electric fan sa A-101 naghimo og kasaba,Ventilation,Low,Resolved,2025-03-01
+SYN-0478,2025-02-24,College of Engineering,Building C,C-105,nahulog ang whiteboard sa C-105,Furniture,Medium,Resolved,2025-03-19
+SYN-0479,2025-02-24,College of Agriculture,Building D,D-108,dili mulupad ang electric fan sa D-108,Ventilation,Medium,Resolved,2025-03-02
+SYN-0480,2025-02-26,College of Computing,Building B,B-106,ang aircon sa B-106 dili cold,Ventilation,Low,Resolved,2025-02-28
+SYN-0481,2025-03-01,College of Business,Building E,E-108,sira ang lamesa sa teacher sa E-108,Furniture,Low,Pending,
+SYN-0482,2025-03-01,College of Business,Building E,E-104,palihug check sa E-104,Electrical,Low,Resolved,2025-03-17
+SYN-0483,2025-03-02,College of Computing,Building B,B-103,sira sa B-103,Audio-Visual,Medium,Resolved,2025-03-11
+SYN-0484,2025-03-02,College of Agriculture,Building D,D-107,problema sa D-107,Ventilation,Medium,Resolved,2025-03-10
+SYN-0485,2025-03-04,College of Education,Building A,A-106,nag-tulo ang atop sa A-106,Structural,Medium,Resolved,2025-03-17
+SYN-0486,2025-03-04,College of Computing,Building B,B-108,electric fan sa B-108 naghimo og kasaba,Ventilation,Medium,Resolved,2025-03-21
+SYN-0487,2025-03-08,College of Business,Building E,E-102,sira ang pultahan sa E-102,Structural,Medium,Resolved,2025-03-16
+SYN-0488,2025-03-08,College of Engineering,Building C,C-106,sira ang lamesa sa teacher sa C-106,Furniture,Medium,In Progress,
+SYN-0489,2025-03-08,College of Engineering,Building C,C-105,nag-spark ang switch sa C-105,Electrical,Medium,Resolved,2025-04-01
+SYN-0490,2025-03-09,College of Computing,Building B,B-104,sira sa B-104,Furniture,Low,Pending,
+SYN-0491,2025-03-09,College of Computing,Building B,B-105,projector in B-105 no signal,Audio-Visual,Low,In Progress,
+SYN-0492,2025-03-12,College of Business,Building E,E-106,walay kuryente ang outlet sa E-106,Electrical,High,Resolved,2025-03-14
+SYN-0493,2025-03-12,College of Engineering,Building C,C-107,sira sa C-107,Ventilation,Low,Resolved,2025-03-29
+SYN-0494,2025-03-13,College of Business,Building E,E-107,nag-tulo ang atop sa E-107,Structural,High,Resolved,2025-03-15
+SYN-0495,2025-03-14,College of Agriculture,Building D,D-102,problema sa D-102,Ventilation,Medium,Pending,
+SYN-0496,2025-03-15,College of Agriculture,Building D,D-101,hugaw kaayo ang D-101,Other,Medium,Resolved,2025-03-22
+SYN-0497,2025-03-16,College of Engineering,Building C,C-103,"broken ceiling fan in C-103, init kaayo",Ventilation,Medium,Resolved,2025-03-18
+SYN-0498,2025-03-18,College of Agriculture,Building D,D-107,"sira ang ilaw sa D-107, dili mosiga",Electrical,High,Resolved,2025-03-26
+SYN-0499,2025-03-19,College of Engineering,Building C,C-104,ang aircon sa C-104 dili cold,Ventilation,Medium,Resolved,2025-04-09
+SYN-0500,2025-03-19,College of Engineering,Building C,C-106,walay display ang projector sa C-106,Audio-Visual,Low,Resolved,2025-03-23
+SYN-0501,2025-03-21,College of Education,Building A,A-106,sira ang speaker sa A-106,Audio-Visual,Medium,Resolved,2025-03-27
+SYN-0502,2025-03-22,College of Agriculture,Building D,D-104,ang aircon sa D-104 dili cold,Ventilation,Medium,Resolved,2025-03-28
+SYN-0503,2025-03-22,College of Agriculture,Building D,D-104,nag-spark ang switch sa D-104,Electrical,Medium,Pending,
+SYN-0504,2025-03-24,College of Agriculture,Building D,D-107,ang HDMI cable sa D-107 naputol,Audio-Visual,Low,Resolved,2025-04-02
+SYN-0505,2025-03-24,College of Engineering,Building C,C-104,flickering lights sa C-104,Electrical,Medium,Resolved,2025-04-09
+SYN-0506,2025-03-24,College of Computing,Building B,B-106,walay display ang projector sa B-106,Audio-Visual,Low,Resolved,2025-04-13
+SYN-0507,2025-03-25,College of Computing,Building B,B-108,busted light bulb in B-108,Electrical,Low,Resolved,2025-04-06
+SYN-0508,2025-04-01,College of Business,Building E,E-104,naguba ang armchair sa E-104,Furniture,Low,Resolved,2025-04-13
+SYN-0509,2025-04-02,College of Computing,Building B,B-103,dili mulupad ang electric fan sa B-103,Ventilation,Low,Resolved,2025-04-10
+SYN-0510,2025-04-03,College of Business,Building E,E-106,"sira ang ilaw sa E-106, dili mosiga",Electrical,Medium,Resolved,2025-04-18
+SYN-0511,2025-04-04,College of Education,Building A,A-105,kulang ang armchairs sa A-105,Furniture,Medium,Resolved,2025-04-05
+SYN-0512,2025-04-05,College of Business,Building E,E-102,loose desk legs sa E-102,Furniture,Low,In Progress,
+SYN-0513,2025-04-06,College of Agriculture,Building D,D-108,dili ma-lock ang pultahan sa D-108,Structural,Medium,Resolved,2025-04-14
+SYN-0514,2025-04-07,College of Education,Building A,A-107,broken window glass in A-107,Structural,Medium,Resolved,2025-04-12
+SYN-0515,2025-04-10,College of Education,Building A,A-106,palihug check sa A-106,Furniture,High,Resolved,2025-04-12
+SYN-0516,2025-04-10,College of Education,Building A,A-106,dili mugana ang projector sa A-106,Audio-Visual,Low,In Progress,
+SYN-0517,2025-04-10,College of Engineering,Building C,C-107,sira ang lamesa sa teacher sa C-107,Furniture,Low,Resolved,2025-04-14
+SYN-0518,2025-04-13,College of Education,Building A,A-103,projector in A-103 no signal,Audio-Visual,Low,In Progress,
+SYN-0519,2025-04-13,College of Business,Building E,E-103,projector in E-103 no signal,Audio-Visual,Medium,Pending,
+SYN-0520,2025-04-14,College of Engineering,Building C,C-107,sira sa C-107,Electrical,Low,Resolved,2025-04-22
+SYN-0521,2025-04-15,College of Business,Building E,E-102,dili mulupad ang electric fan sa E-102,Ventilation,Low,In Progress,
+SYN-0522,2025-04-15,College of Business,Building E,E-108,roof leak in E-108 when it rains,Structural,High,Resolved,2025-04-16
+SYN-0523,2025-04-15,College of Education,Building A,A-105,hugaw kaayo ang A-105,Other,Low,Resolved,2025-05-02
+SYN-0524,2025-04-17,College of Computing,Building B,B-107,leaking faucet near B-107,Plumbing,Low,Pending,
+SYN-0525,2025-04-17,College of Agriculture,Building D,D-105,naay ipis sa D-105,Other,Medium,Resolved,2025-04-24
+SYN-0526,2025-04-18,College of Agriculture,Building D,D-108,leaking faucet near D-108,Plumbing,High,Pending,
+SYN-0527,2025-04-18,College of Agriculture,Building D,D-107,"broken ceiling fan in D-107, init kaayo",Ventilation,Medium,Pending,
+SYN-0528,2025-04-19,College of Education,Building A,A-106,nahulog ang whiteboard sa A-106,Furniture,Medium,Resolved,2025-05-12
+SYN-0529,2025-04-19,College of Business,Building E,E-102,naay ipis sa E-102,Other,Medium,Pending,
+SYN-0530,2025-04-21,College of Agriculture,Building D,D-106,sira ang lamesa sa teacher sa D-106,Furniture,Medium,Resolved,2025-04-29
+SYN-0531,2025-04-22,College of Agriculture,Building D,D-104,walay display ang projector sa D-104,Audio-Visual,Medium,Resolved,2025-05-10
+SYN-0532,2025-04-23,College of Business,Building E,E-101,"sira ang ilaw sa E-101, dili mosiga",Electrical,Low,Resolved,2025-05-05
+SYN-0533,2025-04-23,College of Engineering,Building C,C-107,projector in C-107 no signal,Audio-Visual,Low,Resolved,2025-04-24
+SYN-0534,2025-04-27,College of Education,Building A,A-106,nag-agas ang gripo sa CR duol sa A-106,Plumbing,Low,In Progress,
+SYN-0535,2025-05-01,College of Engineering,Building C,C-108,ang aircon sa C-108 dili cold,Ventilation,Medium,Resolved,2025-05-02
+SYN-0536,2025-05-04,College of Agriculture,Building D,D-106,walay display ang projector sa D-106,Audio-Visual,Low,In Progress,
+SYN-0537,2025-05-04,College of Computing,Building B,B-103,"init kaayo sa B-103, walay hangin",Ventilation,Low,Resolved,2025-05-19
+SYN-0538,2025-05-06,College of Business,Building E,E-101,ang HDMI cable sa E-101 naputol,Audio-Visual,Low,Resolved,2025-05-21
+SYN-0539,2025-05-06,College of Business,Building E,E-105,walay display ang projector sa E-105,Audio-Visual,Low,Resolved,2025-05-20
+SYN-0540,2025-05-09,College of Computing,Building B,B-108,"problema sa B-108, palihug check",Other,Medium,Resolved,2025-05-16
+SYN-0541,2025-05-09,College of Engineering,Building C,C-104,"broken ceiling fan in C-104, init kaayo",Ventilation,Medium,Pending,
+SYN-0542,2025-05-10,College of Computing,Building B,B-102,naay ipis sa B-102,Other,Low,Resolved,2025-05-14
+SYN-0543,2025-05-10,College of Agriculture,Building D,D-101,electric fan sa D-101 naghimo og kasaba,Ventilation,Low,Resolved,2025-05-28
+SYN-0544,2025-05-13,College of Education,Building A,A-107,roof leak in A-107 when it rains,Structural,High,Resolved,2025-05-17
+SYN-0545,2025-05-13,College of Computing,Building B,B-105,"problema sa B-105, palihug check",Other,Medium,In Progress,
+SYN-0546,2025-05-13,College of Engineering,Building C,C-105,nahulog ang whiteboard sa C-105,Furniture,Low,Resolved,2025-05-23
+SYN-0547,2025-05-15,College of Business,Building E,E-101,naguba ang armchair sa E-101,Furniture,Low,Resolved,2025-06-02
+SYN-0548,2025-05-15,College of Education,Building A,A-106,dili mugana ang projector sa A-106,Audio-Visual,Low,Resolved,2025-05-16
+SYN-0549,2025-05-16,College of Engineering,Building C,C-106,clogged sink near C-106,Plumbing,Medium,Resolved,2025-06-07
+SYN-0550,2025-05-16,College of Engineering,Building C,C-108,walay basurahan sa C-108,Other,High,Resolved,2025-05-17
+SYN-0551,2025-05-16,College of Agriculture,Building D,D-101,broken chair in D-101,Structural,Low,Resolved,2025-06-02
+SYN-0552,2025-05-17,College of Agriculture,Building D,D-108,loose desk legs sa D-108,Furniture,Medium,In Progress,
+SYN-0553,2025-05-19,College of Engineering,Building C,C-104,problema sa C-104,Other,Low,Pending,
+SYN-0554,2025-05-19,College of Business,Building E,E-106,ang aircon sa E-106 dili cold,Ventilation,Medium,Pending,
+SYN-0555,2025-05-23,College of Computing,Building B,B-106,nag-agas ang gripo sa CR duol sa B-106,Plumbing,Medium,Resolved,2025-06-11
+SYN-0556,2025-05-26,College of Computing,Building B,B-107,sira ang electric fan sa B-107,Ventilation,Low,Resolved,2025-06-01
+SYN-0557,2025-06-01,College of Business,Building E,E-106,dili mulupad ang electric fan sa E-106,Ventilation,Low,Resolved,2025-06-16
+SYN-0558,2025-06-01,College of Agriculture,Building D,D-106,walay kuryente ang outlet sa D-106,Electrical,Medium,Resolved,2025-06-13
+SYN-0559,2025-06-02,College of Engineering,Building C,C-106,palihug check sa C-106,Audio-Visual,High,In Progress,
+SYN-0560,2025-06-03,College of Agriculture,Building D,D-107,electric fan sa D-107 naghimo og kasaba,Electrical,Low,Resolved,2025-06-06
+SYN-0561,2025-06-05,College of Engineering,Building C,C-104,busted light bulb in C-104,Electrical,Medium,Resolved,2025-06-20
+SYN-0562,2025-06-06,College of Business,Building E,E-106,projector in E-106 no signal,Audio-Visual,Medium,Resolved,2025-06-18
+SYN-0563,2025-06-07,College of Agriculture,Building D,D-103,hugaw kaayo ang D-103,Other,High,Resolved,2025-06-10
+SYN-0564,2025-06-07,College of Agriculture,Building D,D-103,problema sa D-103,Structural,Low,In Progress,
+SYN-0565,2025-06-07,College of Education,Building A,A-101,busted light bulb in A-101,Electrical,Medium,Pending,
+SYN-0566,2025-06-07,College of Education,Building A,A-107,kinahanglan i-repair sa A-107,Ventilation,Low,In Progress,
+SYN-0567,2025-06-07,College of Computing,Building B,B-104,blurry ang projector sa B-104,Audio-Visual,Medium,Resolved,2025-06-25
+SYN-0568,2025-06-08,College of Computing,Building B,B-104,loose desk legs sa B-104,Furniture,Low,Resolved,2025-06-26
+SYN-0569,2025-06-08,College of Computing,Building B,B-107,projector in B-107 no signal,Audio-Visual,High,In Progress,
+SYN-0570,2025-06-08,College of Engineering,Building C,C-104,dili mulupad ang electric fan sa C-104,Ventilation,Medium,Resolved,2025-06-15
+SYN-0571,2025-06-09,College of Computing,Building B,B-104,palihug check sa B-104,Electrical,Low,Resolved,2025-06-29
+SYN-0572,2025-06-09,College of Education,Building A,A-101,"broken ceiling fan in A-101, init kaayo",Ventilation,High,Resolved,2025-06-15
+SYN-0573,2025-06-09,College of Agriculture,Building D,D-103,sira sa D-103,Plumbing,Low,In Progress,
+SYN-0574,2025-06-11,College of Agriculture,Building D,D-106,ang aircon sa D-106 dili cold,Ventilation,Medium,Resolved,2025-06-17
+SYN-0575,2025-06-12,College of Engineering,Building C,C-102,kinahanglan i-repair sa C-102,Ventilation,Medium,Resolved,2025-06-26
+SYN-0576,2025-06-12,College of Engineering,Building C,C-103,kulang ang armchairs sa C-103,Furniture,Low,In Progress,
+SYN-0577,2025-06-14,College of Engineering,Building C,C-103,naay ipis sa C-103,Other,High,Resolved,2025-06-17
+SYN-0578,2025-06-15,College of Business,Building E,E-102,sira ang speaker sa E-102,Audio-Visual,Low,Resolved,2025-06-24
+SYN-0579,2025-06-15,College of Education,Building A,A-106,dili mugana ang projector sa A-106,Audio-Visual,Low,Resolved,2025-07-02
+SYN-0580,2025-06-18,College of Business,Building E,E-106,palihug check sa E-106,Electrical,Low,Resolved,2025-06-26
+SYN-0581,2025-06-19,College of Business,Building E,E-108,loose desk legs sa E-108,Furniture,Medium,Resolved,2025-07-07
+SYN-0582,2025-06-21,College of Engineering,Building C,C-102,broken window glass in C-102,Structural,Medium,Resolved,2025-07-12
+SYN-0583,2025-06-21,College of Agriculture,Building D,D-103,kulang ang armchairs sa D-103,Furniture,High,Pending,
+SYN-0584,2025-06-22,College of Education,Building A,A-106,dili mulupad ang electric fan sa A-106,Ventilation,Low,Resolved,2025-06-24
+SYN-0585,2025-06-22,College of Engineering,Building C,C-104,loose desk legs sa C-104,Furniture,Low,Resolved,2025-07-03
+SYN-0586,2025-06-22,College of Business,Building E,E-106,clogged sink near E-106,Plumbing,Low,Resolved,2025-06-23
+SYN-0587,2025-06-23,College of Education,Building A,A-106,roof leak in A-106 when it rains,Structural,Medium,Resolved,2025-07-09
+SYN-0588,2025-06-23,College of Education,Building A,A-102,walay basurahan sa A-102,Other,Low,Resolved,2025-07-06
+SYN-0589,2025-06-25,College of Agriculture,Building D,D-107,ang outlet sa D-107 dili mugana,Electrical,Medium,Resolved,2025-06-27
+SYN-0590,2025-06-26,College of Business,Building E,E-108,dili mugana ang projector sa E-108,Audio-Visual,Medium,Resolved,2025-07-07
+SYN-0591,2025-07-01,College of Education,Building A,A-106,palihug check sa A-106,Ventilation,Medium,In Progress,
+SYN-0592,2025-07-01,College of Education,Building A,A-106,sira sa A-106,Electrical,Low,Pending,
+SYN-0593,2025-07-02,College of Business,Building E,E-107,"init kaayo sa E-107, walay hangin",Ventilation,Medium,Resolved,2025-07-07
+SYN-0594,2025-07-04,College of Engineering,Building C,C-104,sira ang electric fan sa C-104,Ventilation,Medium,Resolved,2025-07-18
+SYN-0595,2025-07-05,College of Agriculture,Building D,D-103,electric fan sa D-103 naghimo og kasaba,Ventilation,Low,In Progress,
+SYN-0596,2025-07-06,College of Computing,Building B,B-107,sira sa B-107,Furniture,Low,Resolved,2025-07-08
+SYN-0597,2025-07-07,College of Business,Building E,E-104,nag-agas ang gripo sa CR duol sa E-104,Plumbing,Medium,Resolved,2025-07-23
+SYN-0598,2025-07-07,College of Agriculture,Building D,D-106,walay basurahan sa D-106,Other,Low,Resolved,2025-07-13
+SYN-0599,2025-07-08,College of Education,Building A,A-101,"broken ceiling fan in A-101, init kaayo",Ventilation,Medium,Resolved,2025-07-16
+SYN-0600,2025-07-08,College of Agriculture,Building D,D-107,kulang ang armchairs sa D-107,Furniture,High,Pending,
+SYN-0601,2025-07-08,College of Computing,Building B,B-105,sira ang electric fan sa B-105,Ventilation,Medium,Resolved,2025-07-10
+SYN-0602,2025-07-08,College of Education,Building A,A-107,blurry ang projector sa A-107,Audio-Visual,Low,Pending,
+SYN-0603,2025-07-10,College of Engineering,Building C,C-105,"broken ceiling fan in C-105, init kaayo",Ventilation,Medium,In Progress,
+SYN-0604,2025-07-11,College of Education,Building A,A-103,"init kaayo sa A-103, walay hangin",Ventilation,Medium,Resolved,2025-07-18
+SYN-0605,2025-07-12,College of Engineering,Building C,C-107,electric fan sa C-107 naghimo og kasaba,Ventilation,Medium,Resolved,2025-07-31
+SYN-0606,2025-07-12,College of Business,Building E,E-107,busted light bulb in E-107,Electrical,Medium,Resolved,2025-07-20
+SYN-0607,2025-07-13,College of Computing,Building B,B-103,blurry ang projector sa B-103,Audio-Visual,Low,Resolved,2025-07-16
+SYN-0608,2025-07-14,College of Computing,Building B,B-106,"broken ceiling fan in B-106, init kaayo",Ventilation,Medium,In Progress,
+SYN-0609,2025-07-15,College of Engineering,Building C,C-106,hugaw kaayo ang C-106,Other,Low,Resolved,2025-07-21
+SYN-0610,2025-07-15,College of Business,Building E,E-103,hugaw kaayo ang E-103,Other,Low,Resolved,2025-07-24
+SYN-0611,2025-07-18,College of Agriculture,Building D,D-101,broken window glass in D-101,Structural,Low,Resolved,2025-07-26
+SYN-0612,2025-07-20,College of Education,Building A,A-101,"sira ang ilaw sa A-101, dili mosiga",Plumbing,Medium,Resolved,2025-07-29
+SYN-0613,2025-07-21,College of Engineering,Building C,C-104,walay kuryente ang outlet sa C-104,Electrical,Low,Resolved,2025-08-04
+SYN-0614,2025-07-21,College of Engineering,Building C,C-105,kulang ang armchairs sa C-105,Furniture,High,Resolved,2025-07-22
+SYN-0615,2025-07-21,College of Engineering,Building C,C-103,nag-tulo ang atop sa C-103,Structural,High,Resolved,2025-07-23
+SYN-0616,2025-07-22,College of Computing,Building B,B-107,sira sa B-107,Audio-Visual,Medium,Resolved,2025-07-31
+SYN-0617,2025-07-24,College of Business,Building E,E-104,"init kaayo sa E-104, walay hangin",Ventilation,Low,Resolved,2025-07-29
+SYN-0618,2025-07-25,College of Engineering,Building C,C-108,nahulog ang whiteboard sa C-108,Furniture,Low,Resolved,2025-08-13
+SYN-0619,2025-07-26,College of Engineering,Building C,C-103,walay basurahan sa C-103,Other,High,Pending,
+SYN-0620,2025-07-26,College of Education,Building A,A-101,projector in A-101 no signal,Audio-Visual,Medium,Resolved,2025-07-27
+SYN-0621,2025-08-01,College of Education,Building A,A-102,walay display ang projector sa A-102,Audio-Visual,Low,Resolved,2025-08-06
+SYN-0622,2025-08-04,College of Agriculture,Building D,D-103,"init kaayo sa D-103, walay hangin",Furniture,Low,Resolved,2025-08-22
+SYN-0623,2025-08-05,College of Business,Building E,E-102,nahulog ang whiteboard sa E-102,Furniture,Medium,Resolved,2025-08-28
+SYN-0624,2025-08-07,College of Computing,Building B,B-106,"init kaayo sa B-106, walay hangin",Ventilation,Low,In Progress,
+SYN-0625,2025-08-07,College of Agriculture,Building D,D-105,dili mulupad ang electric fan sa D-105,Ventilation,Low,Resolved,2025-08-21
+SYN-0626,2025-08-10,College of Education,Building A,A-107,sira ang speaker sa A-107,Audio-Visual,Low,In Progress,
+SYN-0627,2025-08-12,College of Agriculture,Building D,D-103,dili ma-lock ang pultahan sa D-103,Structural,Medium,In Progress,
+SYN-0628,2025-08-15,College of Computing,Building B,B-102,nag-agas ang gripo sa CR duol sa B-102,Plumbing,Medium,Resolved,2025-08-21
+SYN-0629,2025-08-16,College of Engineering,Building C,C-106,ang HDMI cable sa C-106 naputol,Audio-Visual,Low,Resolved,2025-09-05
+SYN-0630,2025-08-17,College of Agriculture,Building D,D-108,"problema sa D-108, palihug check",Other,Low,Pending,
+SYN-0631,2025-08-17,College of Education,Building A,A-107,clogged sink near A-107,Plumbing,Medium,Resolved,2025-08-21
+SYN-0632,2025-08-19,College of Education,Building A,A-108,"sira ang ilaw sa A-108, dili mosiga",Electrical,Low,Resolved,2025-09-07
+SYN-0633,2025-08-20,College of Education,Building A,A-106,nahulog ang whiteboard sa A-106,Furniture,Medium,Resolved,2025-08-31
+SYN-0634,2025-08-21,College of Agriculture,Building D,D-107,"init kaayo sa D-107, walay hangin",Ventilation,Low,Resolved,2025-09-09
+SYN-0635,2025-08-22,College of Education,Building A,A-106,ang aircon sa A-106 dili cold,Ventilation,High,Resolved,2025-08-30
+SYN-0636,2025-08-22,College of Computing,Building B,B-105,broken chair in B-105,Furniture,Medium,Resolved,2025-09-08
+SYN-0637,2025-08-23,College of Computing,Building B,B-106,projector in B-106 no signal,Audio-Visual,Low,Pending,
+SYN-0638,2025-08-23,College of Agriculture,Building D,D-105,ang outlet sa D-105 dili mugana,Electrical,Medium,Resolved,2025-09-04
+SYN-0639,2025-08-25,College of Education,Building A,A-102,busted light bulb in A-102,Electrical,Low,Resolved,2025-09-08
+SYN-0640,2025-08-26,College of Education,Building A,A-108,sira ang electric fan sa A-108,Ventilation,Medium,Resolved,2025-08-31
+SYN-0641,2025-08-26,College of Engineering,Building C,C-107,kulang ang armchairs sa C-107,Furniture,Low,Resolved,2025-09-03
+SYN-0642,2025-08-27,College of Computing,Building B,B-106,ang outlet sa B-106 dili mugana,Electrical,Low,Resolved,2025-09-09
+SYN-0643,2025-08-27,College of Engineering,Building C,C-108,sira ang lamesa sa teacher sa C-108,Furniture,Medium,Resolved,2025-09-18
+SYN-0644,2025-08-27,College of Business,Building E,E-103,sira ang electric fan sa E-103,Ventilation,Medium,Resolved,2025-09-11
+SYN-0645,2025-09-05,College of Agriculture,Building D,D-108,ang HDMI cable sa D-108 naputol,Audio-Visual,Medium,Resolved,2025-09-07
+SYN-0646,2025-09-07,College of Business,Building E,E-104,hugaw kaayo ang E-104,Other,Low,Resolved,2025-09-28
+SYN-0647,2025-09-09,College of Business,Building E,E-101,walay display ang projector sa E-101,Audio-Visual,Medium,Pending,
+SYN-0648,2025-09-10,College of Agriculture,Building D,D-107,kulang ang armchairs sa D-107,Furniture,Low,Resolved,2025-09-12
+SYN-0649,2025-09-12,College of Agriculture,Building D,D-101,walay display ang projector sa D-101,Audio-Visual,Low,Resolved,2025-09-28
+SYN-0650,2025-09-13,College of Engineering,Building C,C-108,"sira ang ilaw sa C-108, dili mosiga",Electrical,High,Pending,
+SYN-0651,2025-09-17,College of Education,Building A,A-101,leaking faucet near A-101,Plumbing,High,Resolved,2025-09-19
+SYN-0652,2025-09-18,College of Computing,Building B,B-104,dili mulupad ang electric fan sa B-104,Ventilation,Low,Resolved,2025-10-10
+SYN-0653,2025-09-18,College of Engineering,Building C,C-104,"init kaayo sa C-104, walay hangin",Ventilation,Low,Resolved,2025-09-29
+SYN-0654,2025-09-19,College of Education,Building A,A-101,broken window glass in A-101,Structural,Low,Resolved,2025-10-13
+SYN-0655,2025-09-19,College of Business,Building E,E-108,blurry ang projector sa E-108,Audio-Visual,Medium,In Progress,
+SYN-0656,2025-09-19,College of Business,Building E,E-103,walay display ang projector sa E-103,Audio-Visual,Medium,Resolved,2025-09-29
+SYN-0657,2025-09-20,College of Agriculture,Building D,D-103,loose desk legs sa D-103,Furniture,Low,In Progress,
+SYN-0658,2025-09-22,College of Education,Building A,A-103,kulang ang armchairs sa A-103,Furniture,High,Resolved,2025-10-01
+SYN-0659,2025-09-23,College of Business,Building E,E-108,ang outlet sa E-108 dili mugana,Electrical,High,Resolved,2025-09-30
+SYN-0660,2025-09-23,College of Education,Building A,A-105,busted light bulb in A-105,Electrical,High,Resolved,2025-10-01
+SYN-0661,2025-09-25,College of Business,Building E,E-102,kulang ang armchairs sa E-102,Furniture,Low,Resolved,2025-10-15
+SYN-0662,2025-10-01,College of Engineering,Building C,C-103,nahulog ang whiteboard sa C-103,Furniture,Medium,Resolved,2025-10-08
+SYN-0663,2025-10-03,College of Education,Building A,A-104,sira ang flush sa CR sa A-104,Plumbing,Medium,Resolved,2025-10-10
+SYN-0664,2025-10-03,College of Engineering,Building C,C-103,sira sa C-103,Other,Low,In Progress,
+SYN-0665,2025-10-04,College of Computing,Building B,B-103,electric fan sa B-103 naghimo og kasaba,Ventilation,Medium,Resolved,2025-10-21
+SYN-0666,2025-10-05,College of Engineering,Building C,C-106,ang HDMI cable sa C-106 naputol,Audio-Visual,Medium,Resolved,2025-10-22
+SYN-0667,2025-10-05,College of Agriculture,Building D,D-101,sira ang speaker sa D-101,Audio-Visual,Medium,Resolved,2025-10-19
+SYN-0668,2025-10-06,College of Engineering,Building C,C-105,sira ang electric fan sa C-105,Ventilation,Medium,Resolved,2025-10-15
+SYN-0669,2025-10-06,College of Engineering,Building C,C-103,leaking faucet near C-103,Plumbing,High,Resolved,2025-10-07
+SYN-0670,2025-10-08,College of Business,Building E,E-101,"broken ceiling fan in E-101, init kaayo",Ventilation,Medium,Resolved,2025-10-17
+SYN-0671,2025-10-08,College of Engineering,Building C,C-103,electric fan sa C-103 naghimo og kasaba,Ventilation,Medium,In Progress,
+SYN-0672,2025-10-08,College of Education,Building A,A-104,flickering lights sa A-104,Electrical,Medium,Resolved,2025-10-21
+SYN-0673,2025-10-09,College of Computing,Building B,B-102,baha ang CR sa B-102,Plumbing,High,Resolved,2025-10-15
+SYN-0674,2025-10-09,College of Engineering,Building C,C-101,dili mulupad ang electric fan sa C-101,Ventilation,High,Resolved,2025-10-14
+SYN-0675,2025-10-09,College of Education,Building A,A-104,electric fan sa A-104 naghimo og kasaba,Ventilation,High,In Progress,
+SYN-0676,2025-10-10,College of Education,Building A,A-104,nag-tulo ang atop sa A-104,Structural,High,Resolved,2025-10-18
+SYN-0677,2025-10-13,College of Computing,Building B,B-102,dili ma-lock ang pultahan sa B-102,Structural,Low,Resolved,2025-10-28
+SYN-0678,2025-10-14,College of Computing,Building B,B-103,broken chair in B-103,Furniture,Medium,Resolved,2025-10-22
+SYN-0679,2025-10-14,College of Education,Building A,A-107,loose desk legs sa A-107,Furniture,Low,Resolved,2025-10-24
+SYN-0680,2025-10-15,College of Engineering,Building C,C-104,dili mulupad ang electric fan sa C-104,Ventilation,Low,Resolved,2025-10-28
+SYN-0681,2025-10-16,College of Engineering,Building C,C-105,walay display ang projector sa C-105,Audio-Visual,Low,Resolved,2025-11-03
+SYN-0682,2025-10-19,College of Engineering,Building C,C-101,baha ang CR sa C-101,Plumbing,Medium,In Progress,
+SYN-0683,2025-10-21,College of Engineering,Building C,C-103,flickering lights sa C-103,Electrical,High,Resolved,2025-10-28
+SYN-0684,2025-10-22,College of Engineering,Building C,C-104,walay basurahan sa C-104,Other,Low,Resolved,2025-11-13
+SYN-0685,2025-10-23,College of Education,Building A,A-108,hugaw kaayo ang A-108,Other,Medium,Resolved,2025-10-29
+SYN-0686,2025-10-23,College of Education,Building A,A-106,dili ma-lock ang pultahan sa A-106,Structural,Medium,Resolved,2025-11-02
+SYN-0687,2025-10-23,College of Agriculture,Building D,D-105,sira ang flush sa CR sa D-105,Plumbing,Medium,Resolved,2025-11-14
+SYN-0688,2025-10-24,College of Engineering,Building C,C-104,nahulog ang whiteboard sa C-104,Furniture,Low,Resolved,2025-11-01
+SYN-0689,2025-10-24,College of Computing,Building B,B-102,naguba ang armchair sa B-102,Furniture,Medium,In Progress,
+SYN-0690,2025-10-26,College of Business,Building E,E-105,"broken ceiling fan in E-105, init kaayo",Ventilation,Low,In Progress,
+SYN-0691,2025-10-26,College of Engineering,Building C,C-107,nag-spark ang switch sa C-107,Electrical,High,Resolved,2025-10-30
+SYN-0692,2025-10-27,College of Engineering,Building C,C-104,"sira ang ilaw sa C-104, dili mosiga",Electrical,Medium,Resolved,2025-11-10
+SYN-0693,2025-11-02,College of Education,Building A,A-106,ang outlet sa A-106 dili mugana,Electrical,Medium,Resolved,2025-11-14
+SYN-0694,2025-11-03,College of Agriculture,Building D,D-108,dili mulupad ang electric fan sa D-108,Ventilation,Medium,Pending,
+SYN-0695,2025-11-03,College of Agriculture,Building D,D-106,electric fan sa D-106 naghimo og kasaba,Ventilation,High,Pending,
+SYN-0696,2025-11-04,College of Education,Building A,A-102,ang outlet sa A-102 dili mugana,Electrical,Medium,Resolved,2025-11-24
+SYN-0697,2025-11-05,College of Computing,Building B,B-108,walay basurahan sa B-108,Other,Medium,Resolved,2025-11-08
+SYN-0698,2025-11-07,College of Education,Building A,A-106,nag-tulo ang atop sa A-106,Plumbing,Medium,Resolved,2025-11-09
+SYN-0699,2025-11-08,College of Business,Building E,E-107,nag-agas ang gripo sa CR duol sa E-107,Plumbing,Medium,Resolved,2025-11-26
+SYN-0700,2025-11-08,College of Education,Building A,A-102,"init kaayo sa A-102, walay hangin",Ventilation,Low,In Progress,
+SYN-0701,2025-11-08,College of Engineering,Building C,C-107,dili ma-lock ang pultahan sa C-107,Structural,High,In Progress,
+SYN-0702,2025-11-08,College of Computing,Building B,B-104,sira ang flush sa CR sa B-104,Plumbing,Low,Resolved,2025-11-21
+SYN-0703,2025-11-10,College of Agriculture,Building D,D-107,"sira ang ilaw sa D-107, dili mosiga",Electrical,Medium,In Progress,
+SYN-0704,2025-11-10,College of Agriculture,Building D,D-107,loose desk legs sa D-107,Furniture,Low,Resolved,2025-11-23
+SYN-0705,2025-11-12,College of Business,Building E,E-103,ang aircon sa E-103 dili cold,Ventilation,Medium,Resolved,2025-11-22
+SYN-0706,2025-11-13,College of Computing,Building B,B-105,dili mulupad ang electric fan sa B-105,Ventilation,Low,Resolved,2025-11-24
+SYN-0707,2025-11-16,College of Computing,Building B,B-108,kulang ang armchairs sa B-108,Furniture,Medium,Pending,
+SYN-0708,2025-11-16,College of Education,Building A,A-101,ang aircon sa A-101 dili cold,Ventilation,Low,Resolved,2025-12-10
+SYN-0709,2025-11-17,College of Education,Building A,A-105,hugaw kaayo ang A-105,Other,Medium,Resolved,2025-11-29
+SYN-0710,2025-11-17,College of Education,Building A,A-101,gi-crack ang dingding sa A-101,Structural,High,Resolved,2025-11-19
+SYN-0711,2025-11-21,College of Education,Building A,A-106,sira ang electric fan sa A-106,Ventilation,Low,Resolved,2025-11-26
+SYN-0712,2025-11-21,College of Agriculture,Building D,D-108,clogged sink near D-108,Plumbing,Medium,Resolved,2025-11-27
+SYN-0713,2025-11-22,College of Agriculture,Building D,D-107,sira ang electric fan sa D-107,Ventilation,Low,Resolved,2025-12-06
+SYN-0714,2025-11-23,College of Computing,Building B,B-107,sira ang lamesa sa teacher sa B-107,Furniture,Medium,Pending,
+SYN-0715,2025-11-26,College of Computing,Building B,B-107,kinahanglan i-repair sa B-107,Structural,Medium,Resolved,2025-12-16
+SYN-0716,2025-11-27,College of Education,Building A,A-104,dili mulupad ang electric fan sa A-104,Ventilation,Medium,Resolved,2025-12-06
+SYN-0717,2025-12-02,College of Education,Building A,A-101,broken chair in A-101,Furniture,Low,In Progress,
+SYN-0718,2025-12-04,College of Education,Building A,A-104,gi-crack ang dingding sa A-104,Structural,Medium,Resolved,2025-12-23
+SYN-0719,2025-12-04,College of Engineering,Building C,C-101,nag-tulo ang atop sa C-101,Structural,Medium,Resolved,2025-12-25
+SYN-0720,2025-12-05,College of Education,Building A,A-107,"broken ceiling fan in A-107, init kaayo",Ventilation,High,Resolved,2025-12-10
+SYN-0721,2025-12-06,College of Engineering,Building C,C-106,gi-crack ang dingding sa C-106,Structural,High,Resolved,2025-12-12
+SYN-0722,2025-12-07,College of Business,Building E,E-108,gi-crack ang dingding sa E-108,Structural,Medium,In Progress,
+SYN-0723,2025-12-07,College of Education,Building A,A-106,walay basurahan sa A-106,Other,Low,Resolved,2025-12-20
+SYN-0724,2025-12-09,College of Business,Building E,E-106,dili mulupad ang electric fan sa E-106,Ventilation,Medium,Resolved,2025-12-31
+SYN-0725,2025-12-09,College of Education,Building A,A-106,clogged sink near A-106,Plumbing,Low,In Progress,
+SYN-0726,2025-12-11,College of Agriculture,Building D,D-106,broken window glass in D-106,Structural,Low,Resolved,2025-12-23
+SYN-0727,2025-12-11,College of Business,Building E,E-106,flickering lights sa E-106,Electrical,Low,Resolved,2025-12-14
+SYN-0728,2025-12-13,College of Education,Building A,A-108,ang outlet sa A-108 dili mugana,Electrical,Low,In Progress,
+SYN-0729,2025-12-14,College of Education,Building A,A-106,loose desk legs sa A-106,Furniture,Medium,Resolved,2025-12-26
+SYN-0730,2025-12-14,College of Business,Building E,E-103,broken window glass in E-103,Structural,Medium,Resolved,2025-12-18
+SYN-0731,2025-12-15,College of Engineering,Building C,C-105,dili ma-lock ang pultahan sa C-105,Structural,Low,Resolved,2025-12-16
+SYN-0732,2025-12-16,College of Education,Building A,A-106,nag-tulo ang atop sa A-106,Structural,High,Resolved,2025-12-23
+SYN-0733,2025-12-17,College of Computing,Building B,B-103,sira ang flush sa CR sa B-103,Plumbing,Low,Pending,
+SYN-0734,2025-12-17,College of Computing,Building B,B-105,"broken ceiling fan in B-105, init kaayo",Ventilation,Medium,In Progress,
+SYN-0735,2025-12-19,College of Agriculture,Building D,D-101,naguba ang armchair sa D-101,Electrical,Low,Pending,
+SYN-0736,2025-12-19,College of Computing,Building B,B-102,gi-crack ang dingding sa B-102,Structural,High,In Progress,
+SYN-0737,2025-12-21,College of Engineering,Building C,C-105,leaking faucet near C-105,Plumbing,High,Resolved,2025-12-24
+SYN-0738,2025-12-21,College of Business,Building E,E-106,walay display ang projector sa E-106,Audio-Visual,Medium,Resolved,2026-01-13
+SYN-0739,2025-12-22,College of Agriculture,Building D,D-103,"init kaayo sa D-103, walay hangin",Ventilation,Low,Resolved,2026-01-02
+SYN-0740,2025-12-22,College of Agriculture,Building D,D-103,broken chair in D-103,Furniture,Low,Resolved,2026-01-04
+SYN-0741,2025-12-22,College of Education,Building A,A-108,"init kaayo sa A-108, walay hangin",Ventilation,Low,In Progress,
+SYN-0742,2025-12-23,College of Education,Building A,A-104,sira ang electric fan sa A-104,Ventilation,Medium,Resolved,2025-12-30
+SYN-0743,2025-12-23,College of Business,Building E,E-101,palihug check sa E-101,Plumbing,Medium,Resolved,2026-01-04
+SYN-0744,2025-12-24,College of Computing,Building B,B-102,naguba ang armchair sa B-102,Furniture,High,Resolved,2025-12-31
+SYN-0745,2025-12-24,College of Computing,Building B,B-102,"broken ceiling fan in B-102, init kaayo",Ventilation,Low,Resolved,2025-12-29
+SYN-0746,2025-12-24,College of Education,Building A,A-103,sira ang flush sa CR sa A-103,Plumbing,Low,Resolved,2026-01-10
+SYN-0747,2025-12-24,College of Agriculture,Building D,D-107,"init kaayo sa D-107, walay hangin",Other,Medium,Resolved,2026-01-15
+SYN-0748,2025-12-26,College of Engineering,Building C,C-104,sira ang flush sa CR sa C-104,Plumbing,Medium,Resolved,2026-01-19
+SYN-0749,2026-01-01,College of Engineering,Building C,C-105,dili mugana ang projector sa C-105,Audio-Visual,Low,Resolved,2026-01-14
+SYN-0750,2026-01-01,College of Engineering,Building C,C-103,dili mulupad ang electric fan sa C-103,Ventilation,Low,Resolved,2026-01-13
+SYN-0751,2026-01-03,College of Engineering,Building C,C-107,kulang ang armchairs sa C-107,Furniture,Medium,Resolved,2026-01-11
+SYN-0752,2026-01-03,College of Engineering,Building C,C-103,palihug check sa C-103,Furniture,High,Resolved,2026-01-07
+SYN-0753,2026-01-04,College of Computing,Building B,B-101,nag-tulo ang atop sa B-101,Structural,High,Resolved,2026-01-11
+SYN-0754,2026-01-05,College of Business,Building E,E-101,flickering lights sa E-101,Electrical,Low,Resolved,2026-01-12
+SYN-0755,2026-01-05,College of Agriculture,Building D,D-103,"broken ceiling fan in D-103, init kaayo",Ventilation,High,In Progress,
+SYN-0756,2026-01-06,College of Agriculture,Building D,D-103,naguba ang armchair sa D-103,Furniture,Medium,Resolved,2026-01-17
+SYN-0757,2026-01-09,College of Business,Building E,E-108,sira sa E-108,Furniture,Low,Resolved,2026-01-17
+SYN-0758,2026-01-11,College of Business,Building E,E-102,baha ang CR sa E-102,Plumbing,Low,Resolved,2026-01-20
+SYN-0759,2026-01-14,College of Education,Building A,A-107,"init kaayo sa A-107, walay hangin",Ventilation,Medium,Resolved,2026-01-17
+SYN-0760,2026-01-14,College of Education,Building A,A-103,broken window glass in A-103,Structural,Medium,Resolved,2026-01-18
+SYN-0761,2026-01-18,College of Education,Building A,A-106,sira ang speaker sa A-106,Audio-Visual,Medium,Resolved,2026-02-05
+SYN-0762,2026-01-18,College of Computing,Building B,B-106,gi-crack ang dingding sa B-106,Structural,Medium,Pending,
+SYN-0763,2026-01-19,College of Business,Building E,E-108,kinahanglan i-repair sa E-108,Audio-Visual,Medium,Resolved,2026-02-05
+SYN-0764,2026-01-19,College of Education,Building A,A-108,sira ang lamesa sa teacher sa A-108,Furniture,Medium,Resolved,2026-01-23
+SYN-0765,2026-01-19,College of Agriculture,Building D,D-102,broken window glass in D-102,Structural,Medium,Pending,
+SYN-0766,2026-01-21,College of Agriculture,Building D,D-101,nahulog ang whiteboard sa D-101,Furniture,Medium,Pending,
+SYN-0767,2026-01-24,College of Computing,Building B,B-106,baha ang CR sa B-106,Plumbing,Medium,Pending,
+SYN-0768,2026-01-25,College of Education,Building A,A-106,ang aircon sa A-106 dili cold,Ventilation,Medium,Resolved,2026-01-29
+SYN-0769,2026-02-01,College of Education,Building A,A-108,projector in A-108 no signal,Audio-Visual,High,Resolved,2026-02-09
+SYN-0770,2026-02-01,College of Business,Building E,E-102,broken chair in E-102,Furniture,Low,Resolved,2026-02-03
+SYN-0771,2026-02-04,College of Engineering,Building C,C-103,electric fan sa C-103 naghimo og kasaba,Ventilation,High,Resolved,2026-02-09
+SYN-0772,2026-02-04,College of Engineering,Building C,C-101,dili mugana ang projector sa C-101,Audio-Visual,Medium,Pending,
+SYN-0773,2026-02-05,College of Agriculture,Building D,D-108,ang aircon sa D-108 dili cold,Electrical,Low,Pending,
+SYN-0774,2026-02-05,College of Computing,Building B,B-106,loose desk legs sa B-106,Furniture,Low,Resolved,2026-02-10
+SYN-0775,2026-02-05,College of Agriculture,Building D,D-107,ang aircon sa D-107 dili cold,Ventilation,Medium,Resolved,2026-02-20
+SYN-0776,2026-02-08,College of Agriculture,Building D,D-107,sira ang flush sa CR sa D-107,Plumbing,Low,In Progress,
+SYN-0777,2026-02-11,College of Computing,Building B,B-101,hugaw kaayo ang B-101,Other,Low,Resolved,2026-03-02
+SYN-0778,2026-02-12,College of Agriculture,Building D,D-104,sira sa D-104,Ventilation,Low,Pending,
+SYN-0779,2026-02-12,College of Education,Building A,A-106,sira ang speaker sa A-106,Audio-Visual,Low,Resolved,2026-02-13
+SYN-0780,2026-02-14,College of Computing,Building B,B-106,nag-spark ang switch sa B-106,Electrical,High,Resolved,2026-02-20
+SYN-0781,2026-02-14,College of Business,Building E,E-108,dili mugana ang projector sa E-108,Audio-Visual,Low,Resolved,2026-02-24
+SYN-0782,2026-02-14,College of Engineering,Building C,C-101,nag-tulo ang atop sa C-101,Structural,High,Resolved,2026-02-17
+SYN-0783,2026-02-17,College of Computing,Building B,B-104,sira ang pultahan sa B-104,Structural,Medium,Resolved,2026-02-18
+SYN-0784,2026-02-17,College of Engineering,Building C,C-107,nag-tulo ang atop sa C-107,Structural,High,Resolved,2026-02-23
+SYN-0785,2026-02-17,College of Engineering,Building C,C-108,nag-spark ang switch sa C-108,Electrical,Low,Resolved,2026-03-11
+SYN-0786,2026-02-18,College of Agriculture,Building D,D-101,sira ang flush sa CR sa D-101,Plumbing,Medium,Pending,
+SYN-0787,2026-02-18,College of Agriculture,Building D,D-108,flickering lights sa D-108,Electrical,Low,In Progress,
+SYN-0788,2026-02-19,College of Engineering,Building C,C-101,clogged sink near C-101,Plumbing,Low,Resolved,2026-03-04
+SYN-0789,2026-02-20,College of Computing,Building B,B-106,electric fan sa B-106 naghimo og kasaba,Ventilation,Low,Pending,
+SYN-0790,2026-02-23,College of Agriculture,Building D,D-102,baha ang CR sa D-102,Plumbing,Medium,Pending,
+SYN-0791,2026-02-23,College of Business,Building E,E-108,nag-spark ang switch sa E-108,Electrical,Medium,Resolved,2026-03-02
+SYN-0792,2026-02-24,College of Engineering,Building C,C-108,sira ang flush sa CR sa C-108,Plumbing,Low,Resolved,2026-03-11
+SYN-0793,2026-02-25,College of Engineering,Building C,C-107,nag-agas ang gripo sa CR duol sa C-107,Plumbing,High,In Progress,
+SYN-0794,2026-02-25,College of Agriculture,Building D,D-107,dili ma-lock ang pultahan sa D-107,Structural,Medium,In Progress,
+SYN-0795,2026-02-26,College of Computing,Building B,B-102,ang HDMI cable sa B-102 naputol,Audio-Visual,Medium,Resolved,2026-03-17
+SYN-0796,2026-02-26,College of Engineering,Building C,C-103,busted light bulb in C-103,Electrical,Low,In Progress,
+SYN-0797,2026-02-26,College of Computing,Building B,B-107,broken window glass in B-107,Structural,Low,Resolved,2026-03-15
+SYN-0798,2026-02-27,College of Engineering,Building C,C-108,ang aircon sa C-108 dili cold,Ventilation,Medium,Resolved,2026-03-03
+SYN-0799,2026-02-27,College of Engineering,Building C,C-103,palihug check sa C-103,Audio-Visual,Medium,Resolved,2026-03-12
+SYN-0800,2026-02-27,College of Business,Building E,E-101,blurry ang projector sa E-101,Audio-Visual,Low,In Progress,
+SYN-0801,2026-03-01,College of Engineering,Building C,C-107,nahulog ang whiteboard sa C-107,Furniture,Medium,Resolved,2026-03-18
+SYN-0802,2026-03-02,College of Education,Building A,A-106,naguba ang armchair sa A-106,Furniture,Low,Resolved,2026-03-06
+SYN-0803,2026-03-02,College of Computing,Building B,B-106,"init kaayo sa B-106, walay hangin",Ventilation,Medium,Resolved,2026-03-25
+SYN-0804,2026-03-05,College of Engineering,Building C,C-103,sira ang flush sa CR sa C-103,Plumbing,High,Resolved,2026-03-10
+SYN-0805,2026-03-07,College of Engineering,Building C,C-101,nahulog ang whiteboard sa C-101,Furniture,Medium,Resolved,2026-03-17
+SYN-0806,2026-03-09,College of Engineering,Building C,C-103,nag-tulo ang atop sa C-103,Structural,High,Resolved,2026-03-11
+SYN-0807,2026-03-11,College of Business,Building E,E-104,problema sa E-104,Electrical,Low,Resolved,2026-03-19
+SYN-0808,2026-03-14,College of Business,Building E,E-108,"broken ceiling fan in E-108, init kaayo",Ventilation,Medium,Resolved,2026-04-02
+SYN-0809,2026-03-15,College of Education,Building A,A-108,dili mulupad ang electric fan sa A-108,Ventilation,Low,Resolved,2026-03-18
+SYN-0810,2026-03-17,College of Engineering,Building C,C-108,sira ang speaker sa C-108,Audio-Visual,High,Resolved,2026-03-26
+SYN-0811,2026-03-17,College of Business,Building E,E-102,naay ipis sa E-102,Other,Medium,Resolved,2026-04-07
+SYN-0812,2026-03-17,College of Computing,Building B,B-104,nahulog ang whiteboard sa B-104,Structural,High,In Progress,
+SYN-0813,2026-03-18,College of Computing,Building B,B-108,nag-spark ang switch sa B-108,Electrical,High,Resolved,2026-03-24
+SYN-0814,2026-03-22,College of Engineering,Building C,C-103,"broken ceiling fan in C-103, init kaayo",Ventilation,Medium,Resolved,2026-03-29
+SYN-0815,2026-03-22,College of Business,Building E,E-107,leaking faucet near E-107,Plumbing,Medium,Resolved,2026-03-25
+SYN-0816,2026-03-26,College of Agriculture,Building D,D-103,broken window glass in D-103,Structural,Low,In Progress,
+SYN-0817,2026-03-27,College of Engineering,Building C,C-102,nag-spark ang switch sa C-102,Electrical,High,In Progress,
+SYN-0818,2026-03-27,College of Engineering,Building C,C-107,roof leak in C-107 when it rains,Structural,High,Resolved,2026-04-05
+SYN-0819,2026-04-02,College of Agriculture,Building D,D-101,walay display ang projector sa D-101,Audio-Visual,Medium,Resolved,2026-04-14
+SYN-0820,2026-04-09,College of Agriculture,Building D,D-108,"init kaayo sa D-108, walay hangin",Ventilation,Low,Resolved,2026-05-02
+SYN-0821,2026-04-10,College of Education,Building A,A-103,nag-spark ang switch sa A-103,Electrical,High,In Progress,
+SYN-0822,2026-04-11,College of Education,Building A,A-108,nag-spark ang switch sa A-108,Electrical,Medium,Resolved,2026-04-19
+SYN-0823,2026-04-12,College of Education,Building A,A-108,sira ang speaker sa A-108,Audio-Visual,Low,Resolved,2026-05-05
+SYN-0824,2026-04-12,College of Computing,Building B,B-107,hugaw kaayo ang B-107,Other,Medium,Resolved,2026-04-26
+SYN-0825,2026-04-15,College of Business,Building E,E-103,sira ang electric fan sa E-103,Ventilation,Low,In Progress,
+SYN-0826,2026-04-15,College of Computing,Building B,B-103,"init kaayo sa B-103, walay hangin",Ventilation,Medium,Resolved,2026-04-24
+SYN-0827,2026-04-16,College of Engineering,Building C,C-106,busted light bulb in C-106,Electrical,Low,Resolved,2026-04-30
+SYN-0828,2026-04-17,College of Business,Building E,E-107,palihug check sa E-107,Furniture,Medium,Pending,
+SYN-0829,2026-04-19,College of Computing,Building B,B-108,dili mulupad ang electric fan sa B-108,Ventilation,Low,In Progress,
+SYN-0830,2026-04-21,College of Computing,Building B,B-105,naay ipis sa B-105,Other,Medium,Pending,
+SYN-0831,2026-04-21,College of Agriculture,Building D,D-101,sira ang lamesa sa teacher sa D-101,Other,Medium,In Progress,
+SYN-0832,2026-04-22,College of Computing,Building B,B-107,"broken ceiling fan in B-107, init kaayo",Ventilation,Low,Resolved,2026-04-30
+SYN-0833,2026-04-25,College of Engineering,Building C,C-105,"problema sa C-105, palihug check",Other,Low,Resolved,2026-05-03
+SYN-0834,2026-04-25,College of Agriculture,Building D,D-104,ang outlet sa D-104 dili mugana,Electrical,Medium,In Progress,
+SYN-0835,2026-04-27,College of Education,Building A,A-107,baha ang CR sa A-107,Plumbing,High,Pending,
+SYN-0836,2026-04-27,College of Business,Building E,E-106,nag-agas ang gripo sa CR duol sa E-106,Plumbing,Medium,Pending,
+SYN-0837,2026-05-02,College of Education,Building A,A-101,broken chair in A-101,Electrical,Low,Resolved,2026-05-24
+SYN-0838,2026-05-02,College of Engineering,Building C,C-104,broken window glass in C-104,Structural,High,Resolved,2026-05-10
+SYN-0839,2026-05-06,College of Education,Building A,A-102,nag-spark ang switch sa A-102,Electrical,Medium,Resolved,2026-05-28
+SYN-0840,2026-05-06,College of Education,Building A,A-106,"init kaayo sa A-106, walay hangin",Ventilation,High,Resolved,2026-05-09
+SYN-0841,2026-05-08,College of Agriculture,Building D,D-104,kulang ang armchairs sa D-104,Furniture,Low,Resolved,2026-06-01
+SYN-0842,2026-05-08,College of Education,Building A,A-108,dili mugana ang projector sa A-108,Audio-Visual,Medium,Pending,
+SYN-0843,2026-05-08,College of Agriculture,Building D,D-103,kinahanglan i-repair sa D-103,Other,Medium,In Progress,
+SYN-0844,2026-05-09,College of Education,Building A,A-101,ang HDMI cable sa A-101 naputol,Plumbing,Medium,In Progress,
+SYN-0845,2026-05-09,College of Business,Building E,E-101,sira ang lamesa sa teacher sa E-101,Furniture,Medium,Resolved,2026-05-30
+SYN-0846,2026-05-09,College of Agriculture,Building D,D-106,walay display ang projector sa D-106,Audio-Visual,Low,Resolved,2026-05-17
+SYN-0847,2026-05-10,College of Education,Building A,A-108,problema sa A-108,Furniture,Low,In Progress,
+SYN-0848,2026-05-13,College of Business,Building E,E-108,busted light bulb in E-108,Electrical,Medium,In Progress,
+SYN-0849,2026-05-15,College of Business,Building E,E-101,hugaw kaayo ang E-101,Other,Medium,In Progress,
+SYN-0850,2026-05-15,College of Engineering,Building C,C-107,walay kuryente ang outlet sa C-107,Electrical,High,Resolved,2026-05-21
+SYN-0851,2026-05-17,College of Engineering,Building C,C-101,walay kuryente ang outlet sa C-101,Electrical,High,Resolved,2026-05-24
+SYN-0852,2026-05-18,College of Computing,Building B,B-105,walay basurahan sa B-105,Other,Medium,Resolved,2026-05-22
+SYN-0853,2026-05-18,College of Computing,Building B,B-106,blurry ang projector sa B-106,Audio-Visual,Medium,Resolved,2026-06-02
+SYN-0854,2026-05-19,College of Computing,Building B,B-105,"broken ceiling fan in B-105, init kaayo",Ventilation,Low,Resolved,2026-06-03
+SYN-0855,2026-05-20,College of Agriculture,Building D,D-108,"sira ang ilaw sa D-108, dili mosiga",Electrical,Medium,Resolved,2026-06-12
+SYN-0856,2026-05-22,College of Engineering,Building C,C-104,ang HDMI cable sa C-104 naputol,Audio-Visual,Low,Resolved,2026-06-08
+SYN-0857,2026-05-22,College of Education,Building A,A-106,walay display ang projector sa A-106,Audio-Visual,Low,Resolved,2026-06-03
+SYN-0858,2026-05-22,College of Education,Building A,A-101,"broken ceiling fan in A-101, init kaayo",Ventilation,Low,Resolved,2026-06-03
+SYN-0859,2026-05-23,College of Engineering,Building C,C-101,walay display ang projector sa C-101,Audio-Visual,Low,Resolved,2026-05-29
+SYN-0860,2026-05-23,College of Computing,Building B,B-105,flickering lights sa B-105,Electrical,Low,Resolved,2026-06-12
+SYN-0861,2026-05-23,College of Engineering,Building C,C-107,"init kaayo sa C-107, walay hangin",Ventilation,Low,Resolved,2026-06-16
+SYN-0862,2026-05-25,College of Education,Building A,A-108,baha ang CR sa A-108,Plumbing,High,Resolved,2026-05-29
+SYN-0863,2026-05-27,College of Education,Building A,A-106,nag-spark ang switch sa A-106,Electrical,Medium,In Progress,
+SYN-0864,2026-05-27,College of Business,Building E,E-107,naguba ang armchair sa E-107,Furniture,Medium,Pending,
+SYN-0865,2026-06-02,College of Computing,Building B,B-106,blurry ang projector sa B-106,Audio-Visual,Medium,In Progress,
+SYN-0866,2026-06-03,College of Engineering,Building C,C-104,problema sa C-104,Audio-Visual,Medium,In Progress,
+SYN-0867,2026-06-04,College of Education,Building A,A-108,sira ang speaker sa A-108,Audio-Visual,Low,Resolved,2026-06-28
+SYN-0868,2026-06-04,College of Engineering,Building C,C-105,busted light bulb in C-105,Electrical,High,In Progress,
+SYN-0869,2026-06-04,College of Computing,Building B,B-106,problema sa B-106,Structural,Medium,Resolved,2026-06-18
+SYN-0870,2026-06-07,College of Engineering,Building C,C-101,ang outlet sa C-101 dili mugana,Electrical,Medium,Resolved,2026-06-26
+SYN-0871,2026-06-11,College of Computing,Building B,B-105,"init kaayo sa B-105, walay hangin",Ventilation,Low,Resolved,2026-06-21
+SYN-0872,2026-06-11,College of Education,Building A,A-101,nahulog ang whiteboard sa A-101,Furniture,Low,Resolved,2026-07-01
+SYN-0873,2026-06-12,College of Computing,Building B,B-105,hugaw kaayo ang B-105,Other,Low,Resolved,2026-07-04
+SYN-0874,2026-06-12,College of Computing,Building B,B-105,flickering lights sa B-105,Electrical,Medium,Resolved,2026-06-16
+SYN-0875,2026-06-13,College of Agriculture,Building D,D-104,sira ang electric fan sa D-104,Ventilation,Medium,Resolved,2026-06-27
+SYN-0876,2026-06-14,College of Computing,Building B,B-102,sira ang flush sa CR sa B-102,Plumbing,Low,Pending,
+SYN-0877,2026-06-14,College of Engineering,Building C,C-104,nahulog ang whiteboard sa C-104,Furniture,Low,Resolved,2026-07-01
+SYN-0878,2026-06-16,College of Business,Building E,E-103,"init kaayo sa E-103, walay hangin",Other,Low,Resolved,2026-07-04
+SYN-0879,2026-06-17,College of Engineering,Building C,C-108,electric fan sa C-108 naghimo og kasaba,Ventilation,Medium,Pending,
+SYN-0880,2026-06-17,College of Computing,Building B,B-106,sira ang flush sa CR sa B-106,Plumbing,Medium,Resolved,2026-07-02
+SYN-0881,2026-06-17,College of Computing,Building B,B-106,"sira ang ilaw sa B-106, dili mosiga",Electrical,Medium,Resolved,2026-07-04
+SYN-0882,2026-06-18,College of Education,Building A,A-102,ang HDMI cable sa A-102 naputol,Audio-Visual,Low,Resolved,2026-06-23
+SYN-0883,2026-06-18,College of Education,Building A,A-102,electric fan sa A-102 naghimo og kasaba,Ventilation,High,Resolved,2026-06-19
+SYN-0884,2026-06-19,College of Engineering,Building C,C-101,broken chair in C-101,Furniture,Medium,Resolved,2026-07-12
+SYN-0885,2026-06-20,College of Engineering,Building C,C-106,leaking faucet near C-106,Plumbing,High,Resolved,2026-06-28
+SYN-0886,2026-06-22,College of Engineering,Building C,C-101,electric fan sa C-101 naghimo og kasaba,Ventilation,Medium,Resolved,2026-07-08
+SYN-0887,2026-06-22,College of Computing,Building B,B-104,kinahanglan i-repair sa B-104,Furniture,Low,Resolved,2026-07-15
+SYN-0888,2026-06-23,College of Computing,Building B,B-104,roof leak in B-104 when it rains,Structural,High,Resolved,2026-06-24
+SYN-0889,2026-06-24,College of Engineering,Building C,C-104,"sira ang ilaw sa C-104, dili mosiga",Electrical,Medium,Resolved,2026-07-05
+SYN-0890,2026-06-24,College of Agriculture,Building D,D-106,problema sa D-106,Other,Medium,Resolved,2026-06-28
+SYN-0891,2026-06-24,College of Computing,Building B,B-107,ang HDMI cable sa B-107 naputol,Audio-Visual,Low,In Progress,
+SYN-0892,2026-06-25,College of Business,Building E,E-103,ang outlet sa E-103 dili mugana,Electrical,Medium,Resolved,2026-07-06
+SYN-0893,2026-06-26,College of Agriculture,Building D,D-102,ang HDMI cable sa D-102 naputol,Audio-Visual,Low,Resolved,2026-07-13
+SYN-0894,2026-06-26,College of Computing,Building B,B-106,"broken ceiling fan in B-106, init kaayo",Ventilation,Low,Pending,
+SYN-0895,2026-06-26,College of Agriculture,Building D,D-104,flickering lights sa D-104,Electrical,Medium,Resolved,2026-06-28
+SYN-0896,2026-07-01,College of Agriculture,Building D,D-105,walay kuryente ang outlet sa D-105,Electrical,Medium,Pending,
+SYN-0897,2026-07-03,College of Engineering,Building C,C-107,walay display ang projector sa C-107,Audio-Visual,Medium,Resolved,2026-07-04
+SYN-0898,2026-07-03,College of Engineering,Building C,C-104,walay kuryente ang outlet sa C-104,Audio-Visual,Low,Resolved,2026-07-11
+SYN-0899,2026-07-07,College of Agriculture,Building D,D-104,clogged sink near D-104,Plumbing,Low,In Progress,
+SYN-0900,2026-07-07,College of Engineering,Building C,C-104,"init kaayo sa C-104, walay hangin",Ventilation,Medium,Resolved,2026-07-20
+SYN-0901,2026-07-09,College of Business,Building E,E-108,projector in E-108 no signal,Audio-Visual,Low,Resolved,2026-07-23
+SYN-0902,2026-07-09,College of Education,Building A,A-103,gi-crack ang dingding sa A-103,Structural,Medium,Pending,
+SYN-0903,2026-07-10,College of Business,Building E,E-102,naguba ang armchair sa E-102,Furniture,Low,Pending,
+SYN-0904,2026-07-14,College of Business,Building E,E-101,ang aircon sa E-101 dili cold,Ventilation,Medium,In Progress,
+SYN-0905,2026-07-15,College of Computing,Building B,B-101,nahulog ang whiteboard sa B-101,Furniture,Low,Pending,
+SYN-0906,2026-07-16,College of Education,Building A,A-103,kinahanglan i-repair sa A-103,Furniture,Medium,Resolved,2026-08-05
+SYN-0907,2026-07-17,College of Computing,Building B,B-104,naay ipis sa B-104,Furniture,Medium,Resolved,2026-07-28
+SYN-0908,2026-07-18,College of Education,Building A,A-107,walay basurahan sa A-107,Other,Low,Resolved,2026-07-29
+SYN-0909,2026-07-19,College of Engineering,Building C,C-104,walay display ang projector sa C-104,Audio-Visual,Low,In Progress,
+SYN-0910,2026-07-19,College of Business,Building E,E-108,busted light bulb in E-108,Electrical,Low,Resolved,2026-08-03
+SYN-0911,2026-07-21,College of Computing,Building B,B-105,ang outlet sa B-105 dili mugana,Electrical,Medium,Resolved,2026-07-24
+SYN-0912,2026-07-25,College of Business,Building E,E-101,sira ang lamesa sa teacher sa E-101,Furniture,Medium,Resolved,2026-07-28
+SYN-0913,2026-07-27,College of Engineering,Building C,C-103,broken chair in C-103,Furniture,High,Resolved,2026-07-28
+SYN-0914,2026-07-27,College of Business,Building E,E-101,walay kuryente ang outlet sa E-101,Electrical,High,Resolved,2026-07-31
